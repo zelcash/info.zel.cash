@@ -1,0 +1,25 @@
+{
+      "data": [
+            {
+                  "Id": "1",
+                  "Name": "Zelcash website",
+                  "Link": "https://zel.cash",
+                  "Status": "Online",
+                  "Description": "Main Zelcash website"
+            },
+            {
+                  "Id": "2",
+                  "Name": "Zelcash explorer",
+                  "Link": "https://explorer.zel.cash",
+                  "Status": "Online",
+                  "Description": "Main Zelcash explorer"
+            },
+            {
+                  "Id": "3",
+                  "Name": "Zelcash explorer 2",
+                  "Link": "https://explorer2.zel.cash",
+                  "Status": "Online",
+                  "Description": "Backup Zelcash explorer"
+            }
+      ]
+}
