@@ -236,11 +236,13 @@ header a {
 }
 
 header a:focus {
+    color: #aaa;
     text-decoration: none;
     opacity: 1;
 }
 
 header a:hover {
+    color: #aaa;
     opacity: 1;
     text-decoration: none;
 }
