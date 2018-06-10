@@ -1,0 +1,251 @@
+body {
+    font-size: 16px;
+    background: #202734 url(/img/bg-fade.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: scroll;
+    line-height: 1.5;
+    font-family: 'work sans', 'roboto', '-apple-system', BlinkMacSystemFont, helvetica, ubuntu, noto, 'segoe ui', arial, sans-serif;
+}
+table {
+    width: 100%;
+}
+.hiddenRow {
+    padding: 0 !important;
+}
+tr .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+tr .accordion .active, tr.accordion:hover {
+    background-color: #ddd;
+}
+tr .accordion:after {
+    content: '\002B';
+    color: #00CCFF;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+tr.accordion.active:after {
+    content: "\2212";
+}
+tr .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.wrap {
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    width: 80%;
+}
+#myInput {
+    -webkit-app-region: no-drag;
+    background: transparent;
+    border: 0.5px solid #e6e6e6;
+    color: #e6e6e6;
+    font-size: 1em;
+    padding: 5px 5px 3px 15px;
+    text-decoration: none;
+    text-shadow: 2px 2px 20px #000;
+    width: 60%;
+    border-radius: 5px;
+}
+#myInput:focus {
+    outline: none;
+}
+td.name {
+    width: 27%;
+}
+td.url {
+    width: 25%;
+}
+td.focus {
+    width: 24%;
+}
+td.language {
+    width: 24%;
+}
+/*Data Tables*/
+td.details-control {
+    background: url('img/plus.png') no-repeat center center;
+}
+tr.shown td.details-control {
+    background: url('img/minus.png') no-repeat center center;
+}
+table.expand tr {
+    background-color: rgba(0, 204, 255, 0.5) !important;
+    text-align: left !important;
+}
+td.type {
+    width: 150px !important;
+}
+tr {
+    cursor: pointer;
+}
+.dataTables_filter input {
+    padding: 5px 5px;
+    font-weight: normal;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+}
+@media (min-width:768px) {
+    .dataTables_filter input {
+        width: 760px;
+        margin-right: -20px;
+   }
+    table.dataTable {
+        margin-left: -20px;
+   }
+}
+@media (min-width:992px) {
+    .dataTables_filter input {
+        width: 937px;
+        margin-right: 0px;
+   }
+    table.dataTable {
+        margin-left: 0px;
+   }
+}
+@media (min-width:1200px) {
+    .dataTables_filter input {
+        width: 1141px;
+        margin-right: 0px;
+   }
+    table.dataTable {
+        margin-left: 0px;
+   }
+}
+/*Data Tabkes slider*/
+div.slider {
+    display: none;
+}
+table.dataTable tbody td.no-padding {
+    padding: 0;
+}
+th.name {
+    width: 25%;
+}
+th.url {
+    width: 27%;
+}
+th.focus {
+    width: 24%;
+}
+th.language {
+    width: 24%;
+}
+table.expand tr:hover {
+    background-color: rgba(0, 204, 255, 0.5) !important;
+}
+.dataTables_filter {
+    width: 100%;
+    float: center;
+    text-align: center;
+}
+.dataTables_filter {
+    display: none;
+}
+/* 17 --------- Scroll To Top ----------*/
+#scroll-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 1.5em;
+    height: 30px;
+    width: 30px;
+    background: #000;
+    opacity: 0.3;
+    color: #aaa;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+#scroll-to-top:hover {
+    opacity: 1;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0 10px 0;
+    background-color: #000;
+    opacity: 0.6;
+    color: #aaa 
+}
+footer .icons {
+    font-size: 25px;
+}
+footer .icons a {
+    padding-right: 10px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.fab, .fas {
+    color: #aaa;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.fab:hover, .fas:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    display: block;
+}
+#copy {
+    font-size: 12px;
+}
+header a {
+    color: #aaa;
+    opacity: 0.6;
+    text-decoration: none;
+    margin: 5px 30px 5px 10px;
+}
+
+header a:focus {
+    text-decoration: none;
+    opacity: 1;
+}
+
+header a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+.section-name {
+    padding: 30px 0 10px 0;
+    color: white;
+    font-size: 20px;
+}
