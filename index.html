@@ -21,54 +21,133 @@
 
 <body>
     <header>
-        <a href="#infrastructure">Infrastructure</a>
         <a href="#wallets">Wallets</a>
+        <a href="#infrastructure">Infrastructure</a>
         <a href="#exchanges">Exchanges</a>
-        <a href="#development">Development</a>
+        <a href="#miningpools">Mining pools</a>
         <a href="#youtube">Youtube</a>
-        <a href="#marketing">Marketing</a>
+        <!--<a href="#marketing">Marketing</a>
+        <a href="#development">Development</a>
+        <a href="#development">Jobs</a>
+        <a href="#development">Donations</a>-->
+
+        <div class="dropdown"><a class="lang" href="javascript:;">&nbsp;&nbsp;<i class="fa fa-cog"></i>&nbsp;&nbsp;</a>
+            <ul class="dropdown-content-lang">
+                <li>
+                    <a class="english" id="english" href="javascript:;" onclick="testch(this.id)">
+                    English
+                    </a>
+                </li>
+                <!--<li>
+                    <a class="czech" id="czech" href="javascript:;" onclick="testch(this.id)">
+                        Czech
+                    </a>
+                </li>-->
+            </ul>
+        </div>
     </header>
+
     <div class="wrap">
-        <input type="text" id="myInput" placeholder="Filter tables...">
-        <div id="infrastructure" class="section">
-            <div class="section-name">Infrastructure </div>
-            <div style="position:relative">
-                    <div class="blur"></div>
-                    <div class="background padding placeholder-wrapper" style="position:relative">
-            <table id="datatable-infrastructure">
-                <thead>
-                    <tr>
-                        <th class="id">Id</th>
-                        <th class="name">Name</th>
-                        <th class="link">Link</th>
-                        <th class="status">Status</th>
-                        <th class="expandbutton"></th>
-                    </tr>
-                </thead>
-            </table>
-            </div>
-        </div>
-        </div>
+        <input type="text" id="myInput" placeholder="Search through tables...">
         <div id="wallets" class="section">
             <div class="section-name">Wallets</div>
             <div style="position:relative">
-                    <div class="blur"></div>
-                    <div class="background padding placeholder-wrapper" style="position:relative">
-            <table id="datatable-wallets">
-                <thead>
-                    <tr>
-                        <th class="id">Id</th>
-                        <th class="name">Name</th>
-                        <th class="type">Type</th>
-                        <th class="platforms">Platforms</th>
-                        <th class="link">Link</th>
-                        <th class="expandbutton"></th>
-                    </tr>
-                </thead>
+                <div class="blur"></div>
+                <div class="background padding placeholder-wrapper" style="position:relative">
+                    <table id="datatable-wallets">
+                        <thead>
+                            <tr>
+                                <th class="id">Id</th>
+                                <th class="name">Name</th>
+                                <th class="type">Type</th>
+                                <th class="platforms">Platforms</th>
+                                <th class="link">Link</th>
+                                <th class="expandbutton"></th>
+                            </tr>
+                        </thead>
 
-            </table>
+                    </table>
+                </div>
+            </div>
         </div>
+        <div id="infrastructure" class="section">
+            <div class="section-name">Infrastructure </div>
+            <div style="position:relative">
+                <div class="blur"></div>
+                <div class="background padding placeholder-wrapper" style="position:relative">
+                    <table id="datatable-infrastructure">
+                        <thead>
+                            <tr>
+                                <th class="id">Id</th>
+                                <th class="name">Name</th>
+                                <th class="link">Link</th>
+                                <th class="status">Status</th>
+                                <th class="expandbutton"></th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
         </div>
+        <div id="exchanges" class="section">
+            <div class="section-name">Exchanges</div>
+            <div style="position:relative">
+                <div class="blur"></div>
+                <div class="background padding placeholder-wrapper" style="position:relative">
+                    <table id="datatable-exchanges">
+                        <thead>
+                            <tr>
+                                <th class="id">Id</th>
+                                <th class="name">Name</th>
+                                <th class="link">Link</th>
+                                <th class="status">Status</th>
+                                <th class="expandbutton"></th>
+                            </tr>
+                        </thead>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="miningpools" class="section">
+            <div class="section-name">Mining pools</div>
+            <div style="position:relative">
+                <div class="blur"></div>
+                <div class="background padding placeholder-wrapper" style="position:relative">
+                    <table id="datatable-miningpools">
+                        <thead>
+                            <tr>
+                                <th class="id">Id</th>
+                                <th class="name">Name</th>
+                                <th class="link">Link</th>
+                                <th class="status">Status</th>
+                                <th class="expandbutton"></th>
+                            </tr>
+                        </thead>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="youtube" class="section">
+            <div class="section-name">Youtube videos</div>
+            <div style="position:relative">
+                <div class="blur"></div>
+                <div class="background padding placeholder-wrapper" style="position:relative">
+                    <table id="datatable-youtube">
+                        <thead>
+                            <tr>
+                                <th class="id">Id</th>
+                                <th class="name">Name</th>
+                                <th class="link">Link</th>
+                                <th class="uploader">Uploader</th>
+                                <th class="expandbutton"></th>
+                            </tr>
+                        </thead>
+
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -95,8 +174,8 @@
 <a href="#top">
     <div id="scroll-to-top">
         <span>
-                <i class="fa fa-chevron-up bg-black-60"></i>
-            </span>
+             <i class="fa fa-chevron-up"></i>
+        </span>
     </div>
 </a>
 
