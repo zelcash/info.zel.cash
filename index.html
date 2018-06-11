@@ -10,7 +10,6 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/DataTables.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <!-- Scripts -->
@@ -33,33 +32,43 @@
         <input type="text" id="myInput" placeholder="Filter tables...">
         <div id="infrastructure" class="section">
             <div class="section-name">Infrastructure </div>
-            <table id="datatable-infrastructure" class="table table-bordered">
-                <thead bgcolor=#055daf>
+            <div style="position:relative">
+                    <div class="blur"></div>
+                    <div class="background padding placeholder-wrapper" style="position:relative">
+            <table id="datatable-infrastructure">
+                <thead>
                     <tr>
-                        <th>Id</th>
-                        <th>Name</th>
-                        <th>Link</th>
-                        <th>Status</th>
-                        <th></th>
+                        <th class="id">Id</th>
+                        <th class="name">Name</th>
+                        <th class="link">Link</th>
+                        <th class="status">Status</th>
+                        <th class="expandbutton"></th>
                     </tr>
                 </thead>
             </table>
+            </div>
+        </div>
         </div>
         <div id="wallets" class="section">
             <div class="section-name">Wallets</div>
-            <table id="datatable-wallets" class="table table-bordered">
-                <thead bgcolor=#055daf>
+            <div style="position:relative">
+                    <div class="blur"></div>
+                    <div class="background padding placeholder-wrapper" style="position:relative">
+            <table id="datatable-wallets">
+                <thead>
                     <tr>
-                        <th>Id</th>
-                        <th>Name</th>
-                        <th>Type</th>
-                        <th>Platforms</th>
-                        <th>Link</th>
-                        <th></th>
+                        <th class="id">Id</th>
+                        <th class="name">Name</th>
+                        <th class="type">Type</th>
+                        <th class="platforms">Platforms</th>
+                        <th class="link">Link</th>
+                        <th class="expandbutton"></th>
                     </tr>
                 </thead>
 
             </table>
+        </div>
+        </div>
         </div>
     </div>
 

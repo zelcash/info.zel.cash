@@ -4,7 +4,7 @@
 function format(d) {
     // `d` is the original data object for the row
     return '<div class="slider">' +
-        '<table class="expand" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px; transition: 0.4s;">' +
+        '<table class="expand" transition: 0.4s;">' +
         '<tr>' +
         '<td class="type">Description:</td>' +
         '<td>' + d.Description + '</td>' +
@@ -49,7 +49,7 @@ $(document).ready(function () {
             },
             { "data": "Description", "visible": false }  
         ],
-        "order": [[1, 'asc']]
+        "order": [[0, 'asc']]
 
     });
 
@@ -73,7 +73,7 @@ $(document).ready(function () {
             },
             { "data": "Description", "visible": false }  
         ],
-        "order": [[1, 'asc']]
+        "order": [[0, 'asc']]
     });
 
 

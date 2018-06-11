@@ -7,53 +7,51 @@ body {
     background-size: scroll;
     line-height: 1.5;
     font-family: 'work sans', 'roboto', '-apple-system', BlinkMacSystemFont, helvetica, ubuntu, noto, 'segoe ui', arial, sans-serif;
+    color: #eee;
 }
 table {
     width: 100%;
+    text-align: left;
 }
 .hiddenRow {
     padding: 0 !important;
 }
-tr .accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-}
-tr .accordion .active, tr.accordion:hover {
-    background-color: #ddd;
-}
-tr .accordion:after {
-    content: '\002B';
-    color: #00CCFF;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-tr.accordion.active:after {
-    content: "\2212";
-}
-tr .panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
+
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: rgba(0,0,0,0.3);
 }
 .wrap {
     text-align: center;
     margin: auto;
     padding-top: 50px;
     width: 80%;
+}
+.blur {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+    filter: blur(5px);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background: url(/img/bg-fade.jpg);
+}
+.background {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 10px 0 0 rgba(0, 0, 0, 0.3) inset;
+}
+.placeholder-wrapper {
+    padding: 2em 3em 3em 3em;
+    z-index: 2
+}
+.padding {
+    padding: 20px;
+    z-index: 2;
 }
 #myInput {
     -webkit-app-region: no-drag;
@@ -70,18 +68,7 @@ tr:nth-child(even) {
 #myInput:focus {
     outline: none;
 }
-td.name {
-    width: 27%;
-}
-td.url {
-    width: 25%;
-}
-td.focus {
-    width: 24%;
-}
-td.language {
-    width: 24%;
-}
+
 /*Data Tables*/
 td.details-control {
     background: url('img/plus.png') no-repeat center center;
@@ -89,12 +76,10 @@ td.details-control {
 tr.shown td.details-control {
     background: url('img/minus.png') no-repeat center center;
 }
-table.expand tr {
-    background-color: rgba(0, 204, 255, 0.5) !important;
-    text-align: left !important;
-}
-td.type {
-    width: 150px !important;
+
+.type {
+    width: 100px;
+    padding: 10px;
 }
 tr {
     cursor: pointer;
@@ -136,27 +121,46 @@ tr {
    }
 }
 /*Data Tabkes slider*/
-div.slider {
+.slider {
     display: none;
+    border: 0.35px dotted white;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 table.dataTable tbody td.no-padding {
     padding: 0;
 }
+th.id {
+    width: 5%;
+    margin-right: 10px;
+}
 th.name {
-    width: 25%;
+    width: 20%;
 }
-th.url {
-    width: 27%;
+th.link {
+    width: 30%;
 }
-th.focus {
-    width: 24%;
+th.status {
+    width: 20%;
 }
-th.language {
-    width: 24%;
+th.expandbutton {
+    width: 5%;
 }
-table.expand tr:hover {
-    background-color: rgba(0, 204, 255, 0.5) !important;
+th.type {
+    width: 20%;
 }
+th.platforms {
+    width: 30%;
+}
+th {
+    padding-left: 10px;
+}
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
 .dataTables_filter {
     width: 100%;
     float: center;
@@ -194,7 +198,8 @@ footer {
     padding: 20px 0 10px 0;
     background-color: #000;
     opacity: 0.6;
-    color: #aaa 
+    color: #aaa; 
+    margin-top: 50px;
 }
 footer .icons {
     font-size: 25px;
@@ -204,9 +209,21 @@ footer .icons a {
 }
 a {
     text-decoration: none;
+    color: #ddddff;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
 }
 a:hover {
     text-decoration: none;
+    color: #e74c3c;
+}
+a:focus {
+    text-decoration: none;
+    outline: none;
+    outline-offset: 0;
 }
 .fab, .fas {
     color: #aaa;
