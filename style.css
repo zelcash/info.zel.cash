@@ -1,6 +1,6 @@
 body {
     font-size: 16px;
-    background: #202734 url(/img/bg-fade.jpg) no-repeat top center fixed;
+    background: #202734 url(img/bg-fade.jpg) no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -42,7 +42,7 @@ tr:nth-child(even) {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background: url(/img/bg-fade.jpg);
+    background: url(img/bg-fade.jpg);
 }
 
 .background {
