@@ -88,7 +88,7 @@ tr.shown td.details-control {
     background: url('img/minus.png') no-repeat center center;
 }
 
-.type {
+.description {
     width: 100px;
     padding: 10px;
 }
@@ -185,6 +185,8 @@ th.platforms {
 
 th {
     padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     -webkit-transition: all .25s ease-in-out;
     -moz-transition: all .25s ease-in-out;
     -ms-transition: all .25s ease-in-out;

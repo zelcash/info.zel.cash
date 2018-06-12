@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+	<translation id="headerwallets">Wallets</translation>
+	<translation id="headerinfrastructure">Infrastructure</translation>
+	<translation id="headerexchanges">Exchanges</translation>
+	<translation id="headerminingpools">Mining pools</translation>
+	<translation id="headeryoutube">Youtube</translation>
+	<translation id="wallets">Wallets</translation>
+	<translation id="infrastructure">Infrastructure</translation>
+	<translation id="exchanges">Exchanges</translation>
+	<translation id="miningpools">Mining pools</translation>
+	<translation id="youtube">Youtube videos</translation>
+	<translation id="copy">© 2018 Zel Technologies. All rights reserved.</translation>
+	<translation id="id">Id</translation>
+	<translation id="name">Name</translation>
+	<translation id="type">Type</translation>
+	<translation id="link">Link</translation>
+	<translation id="platforms">Platforms</translation>
+	<translation id="status">Status</translation>
+	<translation id="uploader">Uploader</translation>
+	<translation id="description">Description:</translation>
+</translations>
