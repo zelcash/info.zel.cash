@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+	<translation id="headerwallets">Peněženky</translation>
+	<translation id="headerinfrastructure">Infrastruktura</translation>
+	<translation id="headerexchanges">Směnárny</translation>
+	<translation id="headerminingpools">Těžba</translation>
+	<translation id="headeryoutube">Youtube</translation>
+	<translation id="wallets">Peněženky</translation>
+	<translation id="infrastructure">Infrastruktura</translation>
+	<translation id="exchanges">Směnárny</translation>
+	<translation id="miningpools">Těžba</translation>
+	<translation id="youtube">Youtube videa</translation>
+	<translation id="copy">© 2018 Zel Technologies. Všechna práva vyhrazena.</translation>
+	<translation id="id">Id</translation>
+	<translation id="name">Název</translation>
+	<translation id="type">Typ</translation>
+	<translation id="link">Odkaz</translation>
+	<translation id="platforms">Platformy</translation>
+	<translation id="status">Status</translation>
+	<translation id="uploader">Autor</translation>
+	<translation id="description">Popis:</translation>
+</translations>

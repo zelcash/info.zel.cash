@@ -6,7 +6,7 @@ function format(d) {
     return '<div class="slider">' +
         '<table class="expand" transition: 0.4s;">' +
         '<tr>' +
-        '<td class="type">Description:</td>' +
+        '<td class="description">Description:</td>' +
         '<td>' + d.Description + '</td>' +
         '</tr>' +
         '</table>' +
@@ -33,26 +33,6 @@ function testch(id) {
     localStorage.setItem('language', id);
     language = id
 
-    walletsjson = "wallets-" + language + ".json"
-    var tablewallets = $('#datatable-wallets').DataTable()
-    tablewallets.ajax.url(walletsjson).load();
-
-    infrastructurejson = "infrastructure-" + language + ".json"
-    var tableinfrastructure = $('#datatable-infrastructure').DataTable()
-    tableinfrastructure.ajax.url(infrastructurejson).load();
-
-    exchangesjson = "exchanges-" + language + ".json"
-    var tableexchanges = $('#datatable-exchanges').DataTable()
-    tableexchanges.ajax.url(exchangesjson).load();
-
-    miningpoolsjson = "miningpools-" + language + ".json"
-    var tableminingpools = $('#datatable-miningpools').DataTable()
-    tableminingpools.ajax.url(miningpoolsjson).load();
-
-    youtubejson = "youtube-" + language + ".json"
-    var tableyoutube = $('#datatable-youtube').DataTable()
-    tableyoutube.ajax.url(youtubejson).load();
-
     $.ajax({
         url: 'translations/' + language + '.xml',
         success: function(xml) {
@@ -63,17 +43,37 @@ function testch(id) {
             });
         }
     });
+
+    walletsjson = "data/wallets-" + language + ".json"
+    var tablewallets = $('#datatable-wallets').DataTable()
+    tablewallets.ajax.url(walletsjson).load();
+
+    infrastructurejson = "data/infrastructure-" + language + ".json"
+    var tableinfrastructure = $('#datatable-infrastructure').DataTable()
+    tableinfrastructure.ajax.url(infrastructurejson).load();
+
+    exchangesjson = "data/exchanges-" + language + ".json"
+    var tableexchanges = $('#datatable-exchanges').DataTable()
+    tableexchanges.ajax.url(exchangesjson).load();
+
+    miningpoolsjson = "data/miningpools-" + language + ".json"
+    var tableminingpools = $('#datatable-miningpools').DataTable()
+    tableminingpools.ajax.url(miningpoolsjson).load();
+
+    youtubejson = "data/youtube-" + language + ".json"
+    var tableyoutube = $('#datatable-youtube').DataTable()
+    tableyoutube.ajax.url(youtubejson).load();
 };
 $(document).ready(function () {
 
     //languages
     if(localStorage.getItem('language') != null) {
         language = localStorage.getItem('language');
-        walletsjson = "wallets-" + language + ".json"
-        infrastructurejson = "infrastructure-" + language + ".json"
-        exchangesjson = "exchanges-" + language + ".json"
-        miningpoolsjson = "miningpools-" + language + ".json"
-        youtubejson = "youtube-" + language + ".json"
+        walletsjson = "data/wallets-" + language + ".json"
+        infrastructurejson = "data/infrastructure-" + language + ".json"
+        exchangesjson = "data/exchanges-" + language + ".json"
+        miningpoolsjson = "data/miningpools-" + language + ".json"
+        youtubejson = "data/youtube-" + language + ".json"
         $.ajax({
             url: 'translations/' + language + '.xml',
             success: function(xml) {
@@ -85,11 +85,11 @@ $(document).ready(function () {
             }
         });
     } else {
-        walletsjson = "wallets-english.json"
-        infrastructurejson = "infrastructure-english.json"
-        exchangesjson = "exchanges-english.json"
-        miningpoolsjson = "miningpools-english.json"
-        youtubejson = "youtube-english.json"
+        walletsjson = "data/wallets-english.json"
+        infrastructurejson = "data/infrastructure-english.json"
+        exchangesjson = "data/exchanges-english.json"
+        miningpoolsjson = "data/miningpools-english.json"
+        youtubejson = "data/youtube-english.json"
     }
 
     $("#myInput").keyup(function () {
