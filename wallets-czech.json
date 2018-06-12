@@ -1,0 +1,20 @@
+{
+      "data": [
+            {
+                  "Id": "1",
+                  "Name": "Swing Walletcz",
+                  "Type": "Full Node",
+                  "Platforms": "Windows, Linux",
+                  "Link": "<a href='https:\/\/github.com/zelcash/zelcash-wallet/releases' target='_blank'>Github release<\/a>",
+                  "Description": "Swing wallet is a Full Node wallet "
+            },
+            {
+                  "Id": "2",
+                  "Name": "Copay Wallet",
+                  "Type": "Light",
+                  "Platforms": "Windows, MacOS, Linux, Android, iOS",
+                  "Link": "<a href='https:\/\/github.com/zelcash/zelcash-copay-wallet/releases' target='_blank'>Github release<\/a>",
+                  "Description": "Copay wallet is a Light wallet "
+            }
+      ]
+}

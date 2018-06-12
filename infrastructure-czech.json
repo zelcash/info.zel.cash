@@ -1,0 +1,25 @@
+{
+      "data": [
+            {
+                  "Id": "1",
+                  "Name": "Zelcash websitecz",
+                  "Link": "<a href='https:\/\/zel.cash' target='_blank'>zel.cash<\/a>",
+                  "Status": "Online",
+                  "Description": "Main Zelcash website"
+            },
+            {
+                  "Id": "2",
+                  "Name": "Zelcash explorer",
+                  "Link": "<a href='https:\/\/explorer.zel.cash' target='_blank'>explorer.zel.cash<\/a>",
+                  "Status": "Online",
+                  "Description": "Main Zelcash explorer"
+            },
+            {
+                  "Id": "3",
+                  "Name": "Zelcash explorer 2",
+                  "Link": "<a href='https:\/\/explorer2.zel.cash' target='_blank'>explorer2.zel.cash<\/a>",
+                  "Status": "Online",
+                  "Description": "Backup Zelcash explorer"
+            }
+      ]
+}
