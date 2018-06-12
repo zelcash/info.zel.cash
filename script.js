@@ -28,8 +28,70 @@ function show(tr, row) {
         $('div.slider', row.child()).slideDown();
     }
 }
+//languages
+function testch(id) {
+    localStorage.setItem('language', id);
+    language = id
 
+    walletsjson = "wallets-" + language + ".json"
+    var tablewallets = $('#datatable-wallets').DataTable()
+    tablewallets.ajax.url(walletsjson).load();
+
+    infrastructurejson = "infrastructure-" + language + ".json"
+    var tableinfrastructure = $('#datatable-infrastructure').DataTable()
+    tableinfrastructure.ajax.url(infrastructurejson).load();
+
+    exchangesjson = "exchanges-" + language + ".json"
+    var tableexchanges = $('#datatable-exchanges').DataTable()
+    tableexchanges.ajax.url(exchangesjson).load();
+
+    miningpoolsjson = "miningpools-" + language + ".json"
+    var tableminingpools = $('#datatable-miningpools').DataTable()
+    tableminingpools.ajax.url(miningpoolsjson).load();
+
+    youtubejson = "youtube-" + language + ".json"
+    var tableyoutube = $('#datatable-youtube').DataTable()
+    tableyoutube.ajax.url(youtubejson).load();
+
+    $.ajax({
+        url: 'translations/' + language + '.xml',
+        success: function(xml) {
+            $(xml).find('translation').each(function(){
+                var id = $(this).attr('id');
+                var text = $(this).text();
+                $("." + id).html(text);
+            });
+        }
+    });
+};
 $(document).ready(function () {
+
+    //languages
+    if(localStorage.getItem('language') != null) {
+        language = localStorage.getItem('language');
+        walletsjson = "wallets-" + language + ".json"
+        infrastructurejson = "infrastructure-" + language + ".json"
+        exchangesjson = "exchanges-" + language + ".json"
+        miningpoolsjson = "miningpools-" + language + ".json"
+        youtubejson = "youtube-" + language + ".json"
+        $.ajax({
+            url: 'translations/' + language + '.xml',
+            success: function(xml) {
+                $(xml).find('translation').each(function(){
+                    var id = $(this).attr('id');
+                    var text = $(this).text();
+                    $("." + id).html(text);
+                });
+            }
+        });
+    } else {
+        walletsjson = "wallets-english.json"
+        infrastructurejson = "infrastructure-english.json"
+        exchangesjson = "exchanges-english.json"
+        miningpoolsjson = "miningpools-english.json"
+        youtubejson = "youtube-english.json"
+    }
+
     $("#myInput").keyup(function () {
         $('.dataTable').DataTable().search(this.value).draw();
     });
@@ -65,7 +127,7 @@ $(document).ready(function () {
     });
 
     var tablewallets = $('#datatable-wallets').DataTable({
-        "ajax": "wallets.json",
+        "ajax": walletsjson,
         //"lengthMenu": [[-1, 20, 50, 100], ["All", 20, 50, 100]],
         "paging": false,
         "info": false,
@@ -90,7 +152,7 @@ $(document).ready(function () {
     });
 
     var tableinfrasctructure = $('#datatable-infrastructure').DataTable({
-        "ajax": "infrastructure.json",
+        "ajax": infrastructurejson,
         //"lengthMenu": [[-1, 20, 50, 100], ["All", 20, 50, 100]],
         "paging": false,
         "info": false,
@@ -113,7 +175,7 @@ $(document).ready(function () {
     });
 
     var tableexchanges = $('#datatable-exchanges').DataTable({
-        "ajax": "exchanges.json",
+        "ajax": exchangesjson,
         //"lengthMenu": [[-1, 20, 50, 100], ["All", 20, 50, 100]],
         "paging": false,
         "info": false,
@@ -136,7 +198,7 @@ $(document).ready(function () {
     });
 
     var tableminingpools = $('#datatable-miningpools').DataTable({
-        "ajax": "miningpools.json",
+        "ajax": miningpoolsjson,
         //"lengthMenu": [[-1, 20, 50, 100], ["All", 20, 50, 100]],
         "paging": false,
         "info": false,
@@ -159,7 +221,7 @@ $(document).ready(function () {
     });
 
     var tableyoutube = $('#datatable-youtube').DataTable({
-        "ajax": "youtube.json",
+        "ajax": youtubejson,
         //"lengthMenu": [[-1, 20, 50, 100], ["All", 20, 50, 100]],
         "paging": false,
         "info": false,
