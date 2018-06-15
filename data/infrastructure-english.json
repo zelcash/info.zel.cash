@@ -52,7 +52,7 @@
             {
                   "Id": "8",
                   "Name": "Zelcash explorer for ZelTreZ",
-                  "Link": "<a href='https:\/\/explorer.zel.zeltrez.io' target='_blank'>explorer.zeltrez.io<\/a>",
+                  "Link": "<a href='https:\/\/explorer.zel.zeltrez.io' target='_blank'>explorer.zel.zeltrez.io<\/a>",
                   "Status": "Online",
                   "Description": "Zelcash explorer used in ZelTreZ platform showing all transactions and blocks. Based on Bitcoin insight explorer, offering a powerfull API. "
             },
