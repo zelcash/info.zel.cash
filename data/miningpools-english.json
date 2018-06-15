@@ -3,51 +3,93 @@
             {
                   "Id": "1",
                   "Name": "Windfall Mining",
-                  "Link": "<a href='https:\/\/tradesatoshi.com' target='_blank'>tradesatoshi.com<\/a>",
+                  "Link": "<a href='https:\/\/zpool.wfmpools.com' target='_blank'>Windfall Mining<\/a>",
                   "Status": "Active",
-                  "Description": "Tradesatoshi"
+                  "Description": "Zel mining pool"
             },
             {
                   "Id": "2",
                   "Name": "CloudPools",
-                  "Link": "<a href='https:\/\/stocks.exchange/trade/ZEL/BTC' target='_blank'>stocks.exchange<\/a>",
+                  "Link": "<a href='https:\/\/mine.cloudpools.net' target='_blank'>Cloudpools<\/a>",
                   "Status": "Active",
-                  "Description": "Stocks Exchange was the first exchange to list Zelcash."
+                  "Description": "Zel mining pool"
             },
             {
                   "Id": "3",
                   "Name": "CoinBlockers",
-                  "Link": "<a href='https:\/\/graviex.net' target='_blank'>graviex.net<\/a>",
+                  "Link": "<a href='https:\/\/zel.coinblockers.com' target='_blank'>Coinblockers<\/a>",
                   "Status": "Active",
-                  "Description": "Graviex"
+                  "Description": "Zel mining pool"
             },
             {
                   "Id": "4",
                   "Name": "EquiPool",
-                  "Link": "<a href='https:\/\/tradeogre.com/exchange/BTC-ZEL' target='_blank'>tradeorge.com<\/a>",
+                  "Link": "<a href='https:\/\/equipool.1ds.us' target='_blank'>Equipools<\/a>",
                   "Status": "Active",
-                  "Description": "TradeOrge is young but very fast exchange offering multiple trading pairs."
+                  "Description": "Zel mining pool"
             },
             {
                   "Id": "5",
                   "Name": "FlowMining",
-                  "Link": "<a href='https:\/\/komodoplatform.com/decentralized-exchange/' target='_blank'>komodoplatform.com<\/a>",
+                  "Link": "<a href='https:\/\/flowmining.org' target='_blank'>Flowmining<\/a>",
                   "Status": "Active",
-                  "Description": "BarterDex is a decentralized exchange. New version comes as well withe powerfull UI known as HyperDex."
+                  "Description": "Zel mining pool"
             },
             {
                   "Id": "6",
                   "Name": "XBT Moon",
-                  "Link": "<a href='https:\/\/komodoplatform.com/decentralized-exchange/' target='_blank'>komodoplatform.com<\/a>",
+                  "Link": "<a href='https:\/\/pool.xbtmoon.com' target='_blank'>XBTmoon<\/a>",
                   "Status": "Active",
-                  "Description": "BarterDex is a decentralized exchange. New version comes as well withe powerfull UI known as HyperDex."
+                  "Description": "Zel mining pool"
             },
             {
                   "Id": "7",
                   "Name": "ForgeTop",
-                  "Link": "<a href='https:\/\/komodoplatform.com/decentralized-exchange/' target='_blank'>komodoplatform.com<\/a>",
+                  "Link": "<a href='https:\/\/zel.forgetop.com' target='_blank'>Forgetop<\/a>",
                   "Status": "Active",
-                  "Description": "BarterDex is a decentralized exchange. New version comes as well withe powerfull UI known as HyperDex."
+                  "Description": "Zel mining pool"
+            }
+            {
+                  "Id": "8",
+                  "Name": "Nibiru",
+                  "Link": "<a href='https:\/\/zel.nibirupool.com' target='_blank'>Nibiru<\/a>",
+                  "Status": "Active",
+                  "Description": "Zel mining pool"
+            }
+            {
+                  "Id": "9",
+                  "Name": "Pickaxe",
+                  "Link": "<a href='https:\/\/equi.pickaxe.pro' target='_blank'>Pickaxe<\/a>",
+                  "Status": "Active",
+                  "Description": "Zel mining pool"
+            }
+            {
+                  "Id": "10",
+                  "Name": "Althashers",
+                  "Link": "<a href='https:\/\/althashers.com' target='_blank'>Althashers<\/a>",
+                  "Status": "Active",
+                  "Description": "Zel mining pool"
+            }
+            {
+                  "Id": "11",
+                  "Name": "LamboMoon",
+                  "Link": "<a href='https:\/\/lambomoon.club' target='_blank'>LamboMoon<\/a>",
+                  "Status": "Active",
+                  "Description": "Zel mining pool"
+            }
+            {
+                  "Id": "12",
+                  "Name": "RagnarPool",
+                  "Link": "<a href='https:\/\/zel.ragnarpool.ovh' target='_blank'>RagnarPool<\/a>",
+                  "Status": "Active",
+                  "Description": "Zel mining pool"
+            }
+            {
+                  "Id": "13",
+                  "Name": "Voidr",
+                  "Link": "<a href='https:\/\/zelcash.voidr.net' target='_blank'>Voidr<\/a>",
+                  "Status": "Active",
+                  "Description": "Zel mining pool"
             }
       ]
 }
