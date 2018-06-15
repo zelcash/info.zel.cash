@@ -5,21 +5,70 @@
                   "Name": "ZelTreZ Teaser",
                   "Link": "<a href='https:\/\/youtube.com/watch?v=Tvyp_au-tIw' target='_blank'>youtube.com<\/a>",
                   "Uploader": "ZelCash",
-                  "Description": "ZelTreZ promo video."
+                  "Description": "ZelTreZ teaser video with closed captioning in many languages."
             },
             {
                   "Id": "2",
                   "Name": "Zelcash Live Meeting 1",
-                  "Link": "<a href='https:\/\/stocks.exchange/trade/ZEL/BTC' target='_blank'>stocks.exchange<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=DUKiPtNsxO4' target='_blank'>youtube.com<\/a>",
                   "Uploader": "ZelCash",
-                  "Description": "Stocks Exchange was the first exchange to list Zelcash."
+                  "Description": "Zelcash Live Meeting 1"
             },
             {
                   "Id": "3",
                   "Name": "Zelcash Live Meeting 2",
-                  "Link": "<a href='https:\/\/graviex.net' target='_blank'>graviex.net<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=La2_YquW6k4' target='_blank'>youtube.com<\/a>",
                   "Uploader": "ZelCash",
-                  "Description": "Graviex"
+                  "Description": "Zelcash Live Meeting 2"
+            }
+            {
+                  "Id": "4",
+                  "Name": "Zelcash Live Meeting 3",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=pa38GSFC_cw' target='_blank'>youtube.com<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Zelcash Live Meeting 3"
+            }
+            {
+                  "Id": "5",
+                  "Name": "Zelcash Live Meeting 4",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=We5qRAaNWwE' target='_blank'>youtube.com<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Zelcash Live Meeting 4"
+            }
+            {
+                  "Id": "6",
+                  "Name": "Zelcash Live Meeting 5",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=zitGjKpduHQ' target='_blank'>youtube.com<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Zelcash Live Meeting 5"
+            }
+            {
+                  "Id": "7",
+                  "Name": "Zelcash Live Meeting 6",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=p3-J5HRouy8' target='_blank'>youtube.com<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Zelcash Live Meeting 6"
+            }
+            {
+                  "Id": "8",
+                  "Name": "Zelcash Live Meeting 7",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=c9YDcUkv-6Q' target='_blank'>youtube.com<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Zelcash Live Meeting 7"
+            }
+            {
+                  "Id": "9",
+                  "Name": "Zelcash Live Meeting 8",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=6YQZQng7dOI' target='_blank'>youtube.com<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Zelcash Live Meeting 8"
+            }
+            {
+                  "Id": "10",
+                  "Name": "Switzerland Informal Stream",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=M6mcoDT980s' target='_blank'>youtube.com<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Live stream with Miles, Trunk, and Lumi from Switzerland the day of ZelTreZ launch."
             }
       ]
 }
