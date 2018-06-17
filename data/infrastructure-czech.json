@@ -2,24 +2,24 @@
       "data": [
             {
                   "Id": "1",
-                  "Name": "Zelcash websitecz",
+                  "Name": "Zelcash website",
                   "Link": "<a href='https:\/\/zel.cash' target='_blank'>zel.cash<\/a>",
                   "Status": "Online",
-                  "Description": "Main Zelcash website where you can find all the information about Zelcash, its projects, roadmap, team and lot more."
+                  "Description": "Hlavní stránka Zelcash, kde je možné najít veškeré informace ohledně Zelcash, plány, projekty, tým a mnoho dalšího."
             },
             {
                   "Id": "2",
                   "Name": "Zelcash Infopage",
                   "Link": "<a href='https:\/\/info.zel.cash' target='_blank'>info.zel.cash<\/a>",
-                  "Status": "In construction",
-                  "Description": "Zelcash infopage aims to offer all information about Zel Technologies and lists it in a user friendly way."
+                  "Status": "Online",
+                  "Description": "Zelcash infopage se snaží poskytnout veškeré informace ohledně aktivit Zel Technologies a přinést je uživatelům v co nejvíce komfortní podobě."
             },
             {
                   "Id": "3",
                   "Name": "Zelcash WebWallet",
                   "Link": "<a href='https:\/\/my.zel.cash' target='_blank'>my.zel.cash<\/a>",
                   "Status": "Online",
-                  "Description": "WebWallet is an easy to use Zelcash wallet. There is no need to download any file, simply create a wallet by entering your secret phrase."
+                  "Description": "WebWallet je jednoduchá Zelcash peněženka. Není potřeba stahovat žádné soboury, jednoduše vytvořte a použivejte svoji peněženku ve vašem oblíbeném prohlížeči zadáním tajné fráze."
             },
             {
                   "Id": "4",
@@ -52,7 +52,7 @@
             {
                   "Id": "8",
                   "Name": "Zelcash explorer for ZelTreZ",
-                  "Link": "<a href='https:\/\/explorer.zel.zeltrez.io' target='_blank'>explorer.zeltrez.io<\/a>",
+                  "Link": "<a href='https:\/\/explorer.zel.zeltrez.io' target='_blank'>explorer.zel.zeltrez.io<\/a>",
                   "Status": "Online",
                   "Description": "Zelcash explorer used in ZelTreZ platform showing all transactions and blocks. Based on Bitcoin insight explorer, offering a powerfull API. "
             },

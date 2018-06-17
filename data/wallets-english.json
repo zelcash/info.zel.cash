@@ -29,8 +29,16 @@
       "Name": "Web Wallet",
       "Type": "Light",
       "Platforms": "All",
-      "Link": "<a href='https://my.zel.cash target='_blank'>My.Zel.Cash</a>",
-      "Description": "\"Web Wallet is the easiest wallet available. No installation needed. Just go ahead to <a href='https://my.zel.cash target='_blank'>My.Zel.Cash</a> and login/create a wallet with your secret phrase. Web Wallet also offers the option to use your address by importing your private key or by importing the whole wallet.dat file."
+      "Link": "<a href='https://my.zel.cash' target='_blank'>My.Zel.Cash</a>",
+      "Description": "Web Wallet is the easiest wallet available. No installation needed. Just go ahead to <a href='https://my.zel.cash' target='_blank'>My.Zel.Cash</a> and login/create a wallet with your secret phrase. Web Wallet also offers the option to use your address by importing your private key or by importing the whole wallet.dat file."
+    },
+    {
+      "Id": "5",
+      "Name": "ZelGen",
+      "Type": "Light",
+      "Platforms": "Windows, Linux",
+      "Link": "<a href='https://github.com/zelcash/zelgen/releases' target='_blank'>Github release</a>",
+      "Description": "ZelGen and ZelRetrieve allows you to create offline wallets easily. Create your own unique transparent address that starts with your desired characters! Available for Windows and Linux."
     }
   ]
 }
