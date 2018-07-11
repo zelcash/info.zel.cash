@@ -10,7 +10,7 @@
             {
                   "Id": "2",
                   "Name": "Stocks.Exchange",
-                  "Link": "<a href='https:\/\/stocks.exchange/trade/ZEL/BTC' target='_blank'>stocks.exchange<\/a>",
+                  "Link": "<a href='https:\/\/app.stocks.exchange/en/basic-trade/pair/BTC/ZEL/' target='_blank'>stocks.exchange<\/a>",
                   "Status": "Active",
                   "Description": "Stocks.Exchange | ZEL paired with BTC. Smaller exchange, first listing for Zelcash."
             },
