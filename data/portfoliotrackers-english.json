@@ -1,0 +1,18 @@
+{
+		"data": [
+			{
+					"Id": "1",
+					"Name": "Delta",
+					"Link" : "<a href='https:\/\/getdelta.io' target='_blank'>Delta</a>",
+					"Status": "Active",
+					"Description": " Delta is the ultimate cryptocurrency portfolio tracker tool for iOS, Android and Desktop (Windows, Mac and Linux)."
+			},
+			{
+					"Id": "2",
+					"Name": "Blockfolio",
+					"Link" : "<a href='https:\/\/blockfolio.com' target='_blank'>Blockfolio</a>",
+					"Status": "Active",
+					"Description": "Blockfolio is the #1 Free Crypto Portfolio Management app with support for 3000+ cryptocurrencies."
+			}
+	]
+}
