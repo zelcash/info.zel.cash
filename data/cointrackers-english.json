@@ -2,27 +2,34 @@
     "data": [
         {
                 "Id": "1",
+                "Name": "CoinMarketCap",
+                "Link" : "<a href='https:\/\/coinmarketcap.com/currencies/zelcash/' target='_blank'>CoinMarketCap</a>",
+                "Status": "Active",
+                "Description": "Coinmarketcap is a website for tracking capitalization of various cryptocurrencies."
+        },
+        {
+                "Id": "2",
                 "Name": "CoinGecko",
                 "Link" : "<a href='https:\/\/coingecko.com/en/coins/zelcash' target='_blank'>CoinGecko</a>",
                 "Status": "Active",
                 "Description": "CoinGecko is cryptocurrency ranking and evaluation site that breaks down quantitative and qualitative data for a number of different metrics."
         },
         {
-                "Id": "2",
+                "Id": "3",
                 "Name": "CryptoCompare",
                 "Link" : "<a href='https:\/\/cryptocompare.com/coins/zel/overview' target='_blank'>CryptoCompare</a>",
                 "Status": "Active",
                 "Description": "CryptoCompare is an interactive platform where you can discuss the latest crypto trends and monitor all cryptocurrency markets streaming in real time."
         },
         {
-                "Id": "3",
+                "Id": "4",
                 "Name": "CoinLib",
                 "Link" : "<a href='https:\/\/coinlib.io/coin/ZEL/Zelcash' target='_blank'>CoinLib</a>",
                 "Status": "Active",
                 "Description": "Coinlib is the project that provides readers with real-time information about the cryptocurrrency market, as well as crypto-related news."
         },
         {
-                "Id": "4",
+                "Id": "5",
                 "Name": "CoinCodex",
                 "Link" : "<a href='https:\/\/coincodex.com/crypto/zelcash/' target='_blank'>CoinCodex</a>",
                 "Status": "Active",

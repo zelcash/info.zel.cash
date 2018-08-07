@@ -30,64 +30,57 @@
             },
             {
                   "Id": "5",
-                  "Name": "FlowMining",
-                  "Link": "<a href='https:\/\/flowmining.org' target='_blank'>Flowmining<\/a>",
-                  "Status": "Active",
-                  "Description": "Zel mining pool"
-            },
-            {
-                  "Id": "6",
                   "Name": "XBT Moon",
                   "Link": "<a href='https:\/\/pool.xbtmoon.com' target='_blank'>XBTmoon<\/a>",
                   "Status": "Active",
                   "Description": "Zel mining pool"
             },
             {
-                  "Id": "7",
+                  "Id": "6",
                   "Name": "ForgeTop",
                   "Link": "<a href='https:\/\/zel.forgetop.com' target='_blank'>Forgetop<\/a>",
                   "Status": "Active",
                   "Description": "Zel mining pool"
             },
             {
-                  "Id": "8",
-                  "Name": "Nibiru",
-                  "Link": "<a href='https:\/\/zel.nibirupool.com' target='_blank'>Nibiru<\/a>",
-                  "Status": "Active",
-                  "Description": "Zel mining pool"
-            },
-            {
-                  "Id": "9",
+                  "Id": "7",
                   "Name": "Pickaxe",
                   "Link": "<a href='https:\/\/equi.pickaxe.pro' target='_blank'>Pickaxe<\/a>",
                   "Status": "Active",
                   "Description": "Zel mining pool"
             },
             {
-                  "Id": "10",
+                  "Id": "8",
                   "Name": "Althashers",
                   "Link": "<a href='https:\/\/althashers.com' target='_blank'>Althashers<\/a>",
                   "Status": "Active",
                   "Description": "Zel mining pool"
             },
             {
+                  "Id": "9",
+                  "Name": "Voidr",
+                  "Link": "<a href='https:\/\/zelcash.voidr.net' target='_blank'>Voidr<\/a>",
+                  "Status": "Active",
+                  "Description": "Zel mining pool"
+            },
+            {
+                  "Id": "10",
+                  "Name": "Whibbit",
+                  "Link": "<a href='https:\/\/pool.whibbit.cn' target='_blank'>Whibbit<\/a>",
+                  "Status": "Active",
+                  "Description": "Zel mining pool"
+            },
+            {
                   "Id": "11",
-                  "Name": "LamboMoon",
-                  "Link": "<a href='https:\/\/lambomoon.club' target='_blank'>LamboMoon<\/a>",
+                  "Name": "MinerMore",
+                  "Link": "<a href='https:\/\/minermore.com' target='_blank'>MinerMore<\/a>",
                   "Status": "Active",
                   "Description": "Zel mining pool"
             },
             {
                   "Id": "12",
-                  "Name": "RagnarPool",
-                  "Link": "<a href='https:\/\/zel.ragnarpool.ovh' target='_blank'>RagnarPool<\/a>",
-                  "Status": "Active",
-                  "Description": "Zel mining pool"
-            },
-            {
-                  "Id": "13",
-                  "Name": "Voidr",
-                  "Link": "<a href='https:\/\/zelcash.voidr.net' target='_blank'>Voidr<\/a>",
+                  "Name": "Altpool",
+                  "Link": "<a href='https:\/\/zel.altpool.pro' target='_blank'>Altpool<\/a>",
                   "Status": "Active",
                   "Description": "Zel mining pool"
             }
