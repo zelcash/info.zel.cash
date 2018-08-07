@@ -56,6 +56,14 @@ function testch(id) {
     var tableexchanges = $('#datatable-exchanges').DataTable()
     tableexchanges.ajax.url(exchangesjson).load();
 
+    cointrackersjson = "data/cointrackers-" + language + ".json"
+    var tablecointrackers = $('#datatable-cointrackers').DataTable()
+    tablecointrackers.ajax.url(cointrackersjson).load();
+
+    portfoliotrackersjson = "data/portfoliotrackers-" + language + ".json"
+    var tableportfoliotrackers = $('#datatable-portfoliotrackers').DataTable()
+    tableportfoliotrackers.ajax.url(portfoliotrackersjson).load();
+
     miningpoolsjson = "data/miningpools-" + language + ".json"
     var tableminingpools = $('#datatable-miningpools').DataTable()
     tableminingpools.ajax.url(miningpoolsjson).load();
@@ -76,6 +84,8 @@ $(document).ready(function () {
         walletsjson = "data/wallets-" + language + ".json"
         infrastructurejson = "data/infrastructure-" + language + ".json"
         exchangesjson = "data/exchanges-" + language + ".json"
+        cointrackersjson = "data/cointrackers-" + language + ".json"
+        portfoliotrackersjson = "data/portfoliotrackers-" + language + ".json"
         miningpoolsjson = "data/miningpools-" + language + ".json"
         youtubejson = "data/youtube-" + language + ".json"
         toolsjson = "data/tools-" + language + ".json"
@@ -93,6 +103,8 @@ $(document).ready(function () {
         walletsjson = "data/wallets-english.json"
         infrastructurejson = "data/infrastructure-english.json"
         exchangesjson = "data/exchanges-english.json"
+        cointrackersjson = "data/cointrackers-english.json"
+        portfoliotrackersjson = "data/portfoliotrackers-english.json"
         miningpoolsjson = "data/miningpools-english.json"
         youtubejson = "data/youtube-english.json"
         toolsjson = "data/tools-english.json"
@@ -119,6 +131,16 @@ $(document).ready(function () {
 
     $("a[href='#exchanges']").click(function () {
         $("html, body").animate({ scrollTop: $("#exchanges").offset().top }, 800);
+        return false;
+    });
+
+    $("a[href='#cointrackers']").click(function () {
+        $("html, body").animate({ scrollTop: $("#cointrackers").offset().top }, 800);
+        return false;
+    });
+
+    $("a[href='#portfoliotrackers']").click(function () {
+        $("html, body").animate({ scrollTop: $("#portfoliotrackers").offset().top }, 800);
         return false;
     });
 
@@ -187,6 +209,52 @@ $(document).ready(function () {
 
     var tableexchanges = $('#datatable-exchanges').DataTable({
         "ajax": exchangesjson,
+        //"lengthMenu": [[-1, 20, 50, 100], ["All", 20, 50, 100]],
+        "paging": false,
+        "info": false,
+        "orderable": false,
+        "sorting": false,
+        "columns": [
+            { "data": "Id" },
+            { "data": "Name" },
+            { "data": "Link" },
+            { "data": "Status" },
+            {
+                "className": 'details-control',
+                "orderable": false,
+                "data": null,
+                "defaultContent": ''
+            },
+            { "data": "Description", "visible": false }  
+        ],
+        "order": [[0, 'asc']]
+    });
+
+    var tablecointrackers = $('#datatable-cointrackers').DataTable({
+        "ajax": cointrackersjson,
+        //"lengthMenu": [[-1, 20, 50, 100], ["All", 20, 50, 100]],
+        "paging": false,
+        "info": false,
+        "orderable": false,
+        "sorting": false,
+        "columns": [
+            { "data": "Id" },
+            { "data": "Name" },
+            { "data": "Link" },
+            { "data": "Status" },
+            {
+                "className": 'details-control',
+                "orderable": false,
+                "data": null,
+                "defaultContent": ''
+            },
+            { "data": "Description", "visible": false }  
+        ],
+        "order": [[0, 'asc']]
+    });
+
+    var tableportfoliotrackers = $('#datatable-portfoliotrackers').DataTable({
+        "ajax": portfoliotrackersjson,
         //"lengthMenu": [[-1, 20, 50, 100], ["All", 20, 50, 100]],
         "paging": false,
         "info": false,
@@ -294,6 +362,18 @@ $(document).ready(function () {
     $('#datatable-exchanges tbody').on('click', 'tr', function () {
         var tr = $(this).closest('tr');
         var row = tableexchanges.row(tr);
+        show(tr, row);
+    });
+
+    $('#datatable-cointrackers tbody').on('click', 'tr', function () {
+        var tr = $(this).closest('tr');
+        var row = tablecointrackers.row(tr);
+        show(tr, row);
+    });
+
+    $('#datatable-portfoliotrackers tbody').on('click', 'tr', function () {
+        var tr = $(this).closest('tr');
+        var row = tableportfoliotrackers.row(tr);
         show(tr, row);
     });
 
