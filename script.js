@@ -71,6 +71,10 @@ function testch(id) {
     youtubejson = "data/youtube-" + language + ".json"
     var tableyoutube = $('#datatable-youtube').DataTable()
     tableyoutube.ajax.url(youtubejson).load();
+
+    toolsjson = "data/tools-" + language + ".json"
+    var tabletools = $('#datatable-tools').DataTable()
+    tabletools.ajax.url(toolsjson).load();
 };
 $(document).ready(function () {
 
@@ -84,6 +88,7 @@ $(document).ready(function () {
         portfoliotrackersjson = "data/portfoliotrackers-" + language + ".json"
         miningpoolsjson = "data/miningpools-" + language + ".json"
         youtubejson = "data/youtube-" + language + ".json"
+        toolsjson = "data/tools-" + language + ".json"
         $.ajax({
             url: 'translations/' + language + '.xml',
             success: function(xml) {
@@ -102,6 +107,7 @@ $(document).ready(function () {
         portfoliotrackersjson = "data/portfoliotrackers-english.json"
         miningpoolsjson = "data/miningpools-english.json"
         youtubejson = "data/youtube-english.json"
+        toolsjson = "data/tools-english.json"
     }
 
     $("#myInput").keyup(function () {
@@ -145,6 +151,11 @@ $(document).ready(function () {
     
     $("a[href='#youtube']").click(function () {
         $("html, body").animate({ scrollTop: $("#youtube").offset().top }, 800);
+        return false;
+    });
+
+    $("a[href='#tools']").click(function () {
+        $("html, body").animate({ scrollTop: $("#tools").offset().top }, 800);
         return false;
     });
 
@@ -311,6 +322,28 @@ $(document).ready(function () {
         "order": [[0, 'asc']]
     });
 
+    var tabletools = $('#datatable-tools').DataTable({
+        "ajax": toolsjson,
+        //"lengthMenu": [[-1, 20, 50, 100], ["All", 20, 50, 100]],
+        "paging": false,
+        "info": false,
+        "orderable": false,
+        "sorting": false,
+        "columns": [
+            { "data": "Id" },
+            { "data": "Name" },
+            { "data": "Link" },
+            {
+                "className": 'details-control',
+                "orderable": false,
+                "data": null,
+                "defaultContent": ''
+            },
+            { "data": "Description", "visible": false }  
+        ],
+        "order": [[0, 'asc']]
+    });
+
 
 
     // Add event listener for opening and closing details
@@ -353,6 +386,12 @@ $(document).ready(function () {
     $('#datatable-youtube tbody').on('click', 'tr', function () {
         var tr = $(this).closest('tr');
         var row = tableyoutube.row(tr);
+        show(tr, row);
+    });
+
+    $('#datatable-tools tbody').on('click', 'tr', function () {
+        var tr = $(this).closest('tr');
+        var row = tabletools.row(tr);
         show(tr, row);
     });
 });

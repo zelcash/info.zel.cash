@@ -1,20 +1,44 @@
 {
-      "data": [
-            {
-                  "Id": "1",
-                  "Name": "Swing Walletcz",
-                  "Type": "Full Node",
-                  "Platforms": "Windows, Linux",
-                  "Link": "<a href='https:\/\/github.com/zelcash/zelcash-wallet/releases' target='_blank'>Github release<\/a>",
-                  "Description": "Swing wallet is a Full Node wallet "
-            },
-            {
-                  "Id": "2",
-                  "Name": "Copay Wallet",
-                  "Type": "Light",
-                  "Platforms": "Windows, MacOS, Linux, Android, iOS",
-                  "Link": "<a href='https:\/\/github.com/zelcash/zelcash-copay-wallet/releases' target='_blank'>Github release<\/a>",
-                  "Description": "Copay wallet is a Light wallet "
-            }
-      ]
+  "data": [
+    {
+      "Id": "1",
+      "Name": "ZelTreZ",
+      "Type": "Light/Full Node",
+      "Platforms": "Windows, MacOS, Linux",
+      "Link": "<a href='https://zeltrez.io' target='_blank'>ZelTreZ Download</a>",
+      "Description": "ZelTreZ is an encrypted multi-asset wallet with both lightweight and full node capability. Coins implemented are ZEL, BTCZ, ZEC, HUSH, BTC, LTC, ETH and RVN. ZelTreZ is also the Zelcash platform for future capabilities including a Dex, zelNodes, and other dAPPs."
+    },
+    {
+      "Id": "2",
+      "Name": "Swing Wallet",
+      "Type": "Full Node",
+      "Platforms": "Windows, Linux",
+      "Link": "<a href='https://github.com/zelcash/zelcash-wallet/releases' target='_blank'>Swing wallet download</a>",
+      "Description": "Swing wallet is a Full Node wallet with z-address capability for privacy features. Requires download and syncing of the full blockchain and proving keys. "
+    },
+    {
+      "Id": "3",
+      "Name": "Copay Wallet",
+      "Type": "Light",
+      "Platforms": "Windows, MacOS, Linux, Android",
+      "Link": "<a href='https://github.com/zelcash/zelcash-copay-wallet/releases' target='_blank'>Copay wallet download</a>",
+      "Description": "Copay is an open-source lightweight wallet utilizing a unique passphrase to secure the private keys of each user. The blockchain and proving keys are not required to be downloaded with lightweight wallet. "
+    },
+    {
+      "Id": "4",
+      "Name": "Web Wallet",
+      "Type": "Light",
+      "Platforms": "All",
+      "Link": "<a href='https://my.zel.cash' target='_blank'>My.Zel.Cash</a>",
+      "Description": "Web Wallet is the easiest wallet available. No installation needed. Just go ahead to <a href='https://my.zel.cash' target='_blank'>My.Zel.Cash</a> and login/create a wallet with your secret phrase. Web Wallet also offers the option to use your address by importing your private key or by importing the whole wallet.dat file."
+    },
+    {
+      "Id": "5",
+      "Name": "ZelGen",
+      "Type": "Light",
+      "Platforms": "Windows, Linux",
+      "Link": "<a href='https://github.com/zelcash/zelgen/releases' target='_blank'>Github release</a>",
+      "Description": "ZelGen and ZelRetrieve allows you to create offline wallets easily. Create your own unique transparent address that starts with your desired characters! Available for Windows and Linux."
+    }
+  ]
 }

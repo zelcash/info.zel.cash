@@ -2,38 +2,38 @@
       "data": [
             {
                   "Id": "1",
-                  "Name": "TradeSatoshicz",
-                  "Link": "<a href='https:\/\/tradesatoshi.com' target='_blank'>tradesatoshi.com<\/a>",
+                  "Name": "TradeSatoshi",
+                  "Link": "<a href='https:\/\/tradesatoshi.com/Exchange/?market=ZEL_BTC' target='_blank'>tradesatoshi.com<\/a>",
                   "Status": "Active",
-                  "Description": "Tradesatoshi"
+                  "Description": "Tradesatoshi | ZEL má pár s BTC, LTC, BCH, USDT & DOGE. Středně velká směnárna, s kvalitní dostupností a aktivním support teamem v případě potíží."
             },
             {
                   "Id": "2",
-                  "Name": "Stocks. Exchange",
+                  "Name": "Stocks.Exchange",
                   "Link": "<a href='https:\/\/stocks.exchange/trade/ZEL/BTC' target='_blank'>stocks.exchange<\/a>",
                   "Status": "Active",
-                  "Description": "Stocks Exchange was the first exchange to list Zelcash."
+                  "Description": "Stocks.Exchange | ZEL má pár s BTC. Směnárna menší velikost, která jako první nabízela Zelcash."
             },
             {
                   "Id": "3",
                   "Name": "Graviex",
-                  "Link": "<a href='https:\/\/graviex.net' target='_blank'>graviex.net<\/a>",
+                  "Link": "<a href='https:\/\/graviex.net/markets/zelbtc?markets=all&column=name&order=asc&unit=volume' target='_blank'>graviex.net<\/a>",
                   "Status": "Active",
-                  "Description": "Graviex"
+                  "Description": "Graviex | ZEL má pár s BTC. Jedná se o menší směnárnu."
             },
             {
                   "Id": "4",
                   "Name": "TradeOrge",
                   "Link": "<a href='https:\/\/tradeogre.com/exchange/BTC-ZEL' target='_blank'>tradeorge.com<\/a>",
                   "Status": "Active",
-                  "Description": "TradeOrge is young but very fast exchange offering multiple trading pairs."
+                  "Description": "TradeOrge | ZEL spárovaný s BTC. Poměrně nová, středně velká směnárna, která si rychle získala popularitu a roste vysokým tempem."
             },
             {
                   "Id": "5",
                   "Name": "BarterDex",
                   "Link": "<a href='https:\/\/komodoplatform.com/decentralized-exchange/' target='_blank'>komodoplatform.com<\/a>",
                   "Status": "Active",
-                  "Description": "BarterDex is a decentralized exchange. New version comes as well withe powerfull UI known as HyperDex."
+                  "Description": "BarterDex | Mnoho párů. Decentralizovaná směnárna (Dex). Nová verze vychází s updatovaným UI známým jako HyperDex."
             }
       ]
 }

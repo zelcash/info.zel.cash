@@ -5,21 +5,196 @@
                   "Name": "Zelcash website",
                   "Link": "<a href='https:\/\/zel.cash' target='_blank'>zel.cash<\/a>",
                   "Status": "Online",
-                  "Description": "Main Zelcash website"
+                  "Description": "Main Zelcash website where you can find all the information about Zelcash, its projects, roadmap, team and lot more."
             },
             {
                   "Id": "2",
-                  "Name": "Zelcash explorer",
-                  "Link": "<a href='https:\/\/explorer.zel.cash' target='_blank'>explorer.zel.cash<\/a>",
+                  "Name": "Zelcash Infopage",
+                  "Link": "<a href='https:\/\/info.zel.cash' target='_blank'>info.zel.cash<\/a>",
                   "Status": "Online",
-                  "Description": "Main Zelcash explorer"
+                  "Description": "Zelcash infopage aims to offer all information about Zel Technologies and lists it in a user friendly way."
             },
             {
                   "Id": "3",
+                  "Name": "Zelcash WebWallet",
+                  "Link": "<a href='https:\/\/my.zel.cash' target='_blank'>my.zel.cash<\/a>",
+                  "Status": "Online",
+                  "Description": "WebWallet is an easy to use Zelcash wallet. There is no need to download any file, simply create a wallet by entering your secret phrase."
+            },
+            {
+                  "Id": "4",
+                  "Name": "ZelTreZ",
+                  "Link": "<a href='https:\/\/zeltrez.io' target='_blank'>zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "ZelTreZ website is dedicated to ZelTreZ and only ZelTreZ itself offering all information about the platform on one place. User can also download the platform on that site, read about it, find a support or ask to list new coins to ZelTreZ platform."
+            },
+            {
+                  "Id": "5",
+                  "Name": "Zelcash explorer",
+                  "Link": "<a href='https:\/\/explorer.zel.cash' target='_blank'>explorer.zel.cash<\/a>",
+                  "Status": "Online",
+                  "Description": "Main Zelcash explorer showing all transactions and blocks. Based on Bitcoin insight explorer, offering a powerfull API. "
+            },
+            {
+                  "Id": "6",
                   "Name": "Zelcash explorer 2",
                   "Link": "<a href='https:\/\/explorer2.zel.cash' target='_blank'>explorer2.zel.cash<\/a>",
                   "Status": "Online",
-                  "Description": "Backup Zelcash explorer"
+                  "Description": "Backup Zelcash explorer showing all transactions and blocks. Based on Bitcoin insight explorer, offering a powerfull API. "
+            },
+            {
+                  "Id": "7",
+                  "Name": "Zelcash explorer 3",
+                  "Link": "<a href='https:\/\/explorer.zelcash.online' target='_blank'>explorer.zelcash.online<\/a>",
+                  "Status": "Online",
+                  "Description": "Backup Zelcash explorer 2 showing all transactions and blocks. Based on Bitcoin insight explorer, offering a powerfull API. "
+            },
+            {
+                  "Id": "8",
+                  "Name": "Zelcash explorer for ZelTreZ",
+                  "Link": "<a href='https:\/\/explorer.zel.zeltrez.io' target='_blank'>explorer.zel.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Zelcash explorer used in ZelTreZ platform showing all transactions and blocks. Based on Bitcoin insight explorer, offering a powerfull API. "
+            },
+            {
+                  "Id": "9",
+                  "Name": "Zelcash rates",
+                  "Link": "<a href='https:\/\/rates.zel.cash' target='_blank'>rates.zel.cash<\/a>",
+                  "Status": "Online",
+                  "Description": "Main Zelcash rates API showing Zelcash price in BTC and about 150 fiat currencies. Feel free to pull data from it for your site!"
+            },
+            {
+                  "Id": "10",
+                  "Name": "Zelcash rates for ZelTreZ",
+                  "Link": "<a href='https:\/\/rates.zel.zeltrez.io' target='_blank'>rates.zel.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Zelcash rates server used inside ZelTreZ. API shows Zelcash price in BTC and about 150 fiat currencies. Feel free to pull data from it for your site!"
+            },
+            {
+                  "Id": "11",
+                  "Name": "Main BWS",
+                  "Link": "<a href='https:\/\/bws.zel.cash' target='_blank'>bws.zel.cash<\/a>",
+                  "Status": "Online",
+                  "Description": "Bitcore Wallet Service (BWS) is used for Copay wallets to operate correctly. It is a powerfull extension to Bitcore itself. Example API call: https://bws.zel.cash/bws/api/v2/feelevels"
+            },
+            {
+                  "Id": "12",
+                  "Name": "Backup BWS",
+                  "Link": "<a href='https:\/\/bws2.zel.cash' target='_blank'>bws2.zel.cash<\/a>",
+                  "Status": "Online",
+                  "Description": "Bitcore Wallet Service (BWS) is used for Copay wallets to operate correctly. It is a powerfull extension to Bitcore itself. Example API call: https://bws.zel.cash/bws/api/v2/feelevels"
+            },
+            {
+                  "Id": "13",
+                  "Name": "Backup BWS 2",
+                  "Link": "<a href='https:\/\/bws.zelcash.online' target='_blank'>bws.zelcash.online<\/a>",
+                  "Status": "Online",
+                  "Description": "Bitcore Wallet Service (BWS) is used for Copay wallets to operate correctly. It is a powerfull extension to Bitcore itself. Example API call: https://bws.zel.cash/bws/api/v2/feelevels"
+            },
+            {
+                  "Id": "14",
+                  "Name": "Backup BWS 3",
+                  "Link": "<a href='https:\/\/bws.zel.zeltrez.io' target='_blank'>bws.zel.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Bitcore Wallet Service (BWS) is used for Copay wallets to operate correctly. It is a powerfull extension to Bitcore itself. Example API call: https://bws.zel.cash/bws/api/v2/feelevels"
+            },
+            {
+                  "Id": "15",
+                  "Name": "BTC explorer",
+                  "Link": "<a href='https:\/\/explorer.btc.zeltrez.io' target='_blank'>explorer.btc.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Our Insight Explorer for Bitcoin that ZelTreZ is using"
+            },
+            {
+                  "Id": "16",
+                  "Name": "LTC explorer",
+                  "Link": "<a href='https:\/\/explorer.ltc.zeltrez.io' target='_blank'>explorer.ltc.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Our Insight Explorer for Litecoin that ZelTreZ is using"
+            },
+            {
+                  "Id": "17",
+                  "Name": "ZEC explorer",
+                  "Link": "<a href='https:\/\/explorer.zec.zeltrez.io' target='_blank'>explorer.zec.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Our Insight Explorer for ZCash that ZelTreZ is using"
+            },
+            {
+                  "Id": "18",
+                  "Name": "HUSH explorer",
+                  "Link": "<a href='https:\/\/explorer.hush.zeltrez.io' target='_blank'>explorer.hush.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Our Insight Explorer for Hush that ZelTreZ is using"
+            },
+            {
+                  "Id": "19",
+                  "Name": "BTCZ explorer",
+                  "Link": "<a href='https:\/\/explorer.btcz.zeltrez.io' target='_blank'>explorer.btcz.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Our Insight Explorer for BitcoinZ that ZelTreZ is using"
+            },
+            {
+                  "Id": "20",
+                  "Name": "RVN explorer",
+                  "Link": "<a href='https:\/\/explorer.rvn.zeltrez.io' target='_blank'>explorer.rvn.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Our Insight Explorer for RavenCoin that ZelTreZ is using"
+            },
+            {
+                  "Id": "21",
+                  "Name": "ETH server",
+                  "Link": "<a href='http:\/\/206.189.126.50' target='_blank'>206.189.126.50<\/a>",
+                  "Status": "Online",
+                  "Description": "Our Ethereum server running geth that is used inside ZelTreZ"
+            },
+            {
+                  "Id": "22",
+                  "Name": "BTC rates",
+                  "Link": "<a href='https:\/\/rates.btc.zeltrez.io' target='_blank'>rates.btc.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Our Bitcoin rates API that ZelTreZ is using to obtain its fiat equivalent."
+            },
+            {
+                  "Id": "23",
+                  "Name": "LTC rates",
+                  "Link": "<a href='https:\/\/rates.ltc.zeltrez.io' target='_blank'>rates.ltc.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Our Litecoin rates API that ZelTreZ is using to obtain its fiat equivalent."
+            },
+            {
+                  "Id": "24",
+                  "Name": "ZEC rates",
+                  "Link": "<a href='https:\/\/rates.zec.zeltrez.io' target='_blank'>rates.zec.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Our ZCash rates API that ZelTreZ is using to obtain its fiat equivalent."
+            },
+            {
+                  "Id": "25",
+                  "Name": "HUSH rates",
+                  "Link": "<a href='https:\/\/rates.hush.zeltrez.io' target='_blank'>rates.hush.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Our Hush rates API that ZelTreZ is using to obtain its fiat equivalent."
+            },
+            {
+                  "Id": "26",
+                  "Name": "BTCZ rates",
+                  "Link": "<a href='https:\/\/rates.btcz.zeltrez.io' target='_blank'>rates.btcz.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Our BitcoinZ rates API that ZelTreZ is using to obtain its fiat equivalent."
+            },
+            {
+                  "Id": "27",
+                  "Name": "RVN rates",
+                  "Link": "<a href='https:\/\/rates.rvn.zeltrez.io' target='_blank'>rates.rvn.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Our RavenCoin rates API that ZelTreZ is using to obtain its fiat equivalent."
+            },
+            {
+                  "Id": "28",
+                  "Name": "ETH rates",
+                  "Link": "<a href='https:\/\/rates.eth.zeltrez.io' target='_blank'>rates.eth.zeltrez.io<\/a>",
+                  "Status": "Online",
+                  "Description": "Our Ethereum rates API that ZelTreZ is using to obtain its fiat equivalent."
             }
       ]
 }

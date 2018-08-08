@@ -1,0 +1,22 @@
+{
+      "data": [
+            {
+                  "Id": "1",
+                  "Name": "ZelGen",
+                  "Link": "<a href='https:\/\/github.com/zelcash/zelgen' target='_blank'>Github<\/a>",
+                  "Description": "ZelGen and ZelRetrieve allows you to create offline wallets easily. Create your own unique transparent address that starts with your desired characters! Available for Windows and Linux."
+            },
+            {
+                  "Id": "2",
+                  "Name": "ZelRates",
+                  "Link": "<a href='https:\/\/github.com/zelcash/zel-rates-api' target='_blank'>Github<\/a>",
+                  "Description": "ZelRates API offers Zelcash prices in almost every fiat currency and Bitcoin. Create your own rates server easily."
+            },
+            {
+                  "Id": "3",
+                  "Name": "ZelSeeder",
+                  "Link": "<a href='https:\/\/github.com/zelcash/zelcash-seeder' target='_blank'>Github<\/a>",
+                  "Description": "Zelcash Seeder is a crawler for the Zelcash network, which exposes a list of reliable nodes via a built-in DNS server."
+            }
+      ]
+}
