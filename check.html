@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function ifServerOnline(ifOnline, ifOffline)
+{
+    var img = document.body.appendChild(document.createElement("img"));
+    img.onload = function()
+    {
+        ifOnline && ifOnline.constructor == Function && ifOnline();
+    };
+    img.onerror = function()
+    {
+        ifOffline && ifOffline.constructor == Function && ifOffline();
+    };
+    img.src = "https://explorer.zel.cash/img/zelcashlogo.png";        
+}
+
+ifServerOnline(function()
+{
+    //  server online code here
+    console.warn("online");
+},
+function ()
+{
+    //  server offline code here
+    console.warn("offline");
+});

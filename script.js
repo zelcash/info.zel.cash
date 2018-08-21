@@ -76,6 +76,23 @@ function testch(id) {
     var tabletools = $('#datatable-tools').DataTable()
     tabletools.ajax.url(toolsjson).load();
 };
+
+//check status of each explorer and rates server
+function checkStatus() {
+    var serverList = ["explorer.zel.cash", "explorer2.zel.cash", "explorer.zelcash.online", "explorer.zel.zeltrez.io"];
+    serverList.forEach(function(entry) {
+        const url = 'https://'+ entry + '/api/status?q=getinfo';
+        console.log(url);
+        fetch(url)
+        .then(function(response) {
+            document.getElementById("status").innerHTML = "online";
+        })
+        .catch(function(error) {
+            document.getElementById("status").innerHTML = "error";
+        })
+    });
+};
+
 $(document).ready(function () {
 
     //languages
