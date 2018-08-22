@@ -13,6 +13,13 @@
                 "Link" : "<a href='https:\/\/blockfolio.com' target='_blank'>Blockfolio</a>",
                 "Status": "Active",
                 "Description": "Blockfolio is the #1 Free Crypto Portfolio Management app with support for 3000+ cryptocurrencies."
+        },
+        {
+                "Id": "3",
+                "Name": "MyCryptoStats",
+                "Link" : "<a href='https:\/\/mycryptostats.com' target='_blank'>MyCryptoStats</a>",
+                "Status": "Active",
+                "Description": "Crypto Currency Portfolio and Miner Monitoring Tool."
         }
 ]
 }
