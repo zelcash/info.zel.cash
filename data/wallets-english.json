@@ -2,11 +2,11 @@
   "data": [
     {
       "Id": "1",
-      "Name": "ZelTreZ",
+      "Name": "ZelCore",
       "Type": "Light/Full Node",
-      "Platforms": "Windows, MacOS, Linux",
-      "Link": "<a href='https://zeltrez.io' target='_blank'>ZelTreZ Download</a>",
-      "Description": "ZelTreZ is an encrypted multi-asset wallet with both lightweight and full node capability. Coins implemented are ZEL, BTCZ, ZEC, HUSH, BTC, LTC, ETH and RVN. ZelTreZ is also the Zelcash platform for future capabilities including a Dex, zelNodes, and other dAPPs."
+      "Platforms": "Android, iOS, Windows, MacOS, Linux",
+      "Link": "<a href='https://zelcore.io/#download' target='_blank'>ZelCore Download</a>",
+      "Description": "ZelCore is an encrypted multi-asset wallet with both lightweight and full node capability. ZelCore is also the Zelcash platform for future capabilities including a Dex, zelNodes, and other dAPPs."
     },
     {
       "Id": "2",

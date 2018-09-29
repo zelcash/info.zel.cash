@@ -111,6 +111,41 @@
                   "Link": "<a href='https:\/\/youtube.com/watch?v=sXVGWtcFPiQ' target='_blank'>youtube.com<\/a>",
                   "Uploader": "Kev's Crypto Channel",
                   "Description": "Date: 08/07/2018 | Runtime: 3h20m26s | Topics: Everything ZelCash and mining"
+            },
+            {
+                  "Id": "17",
+                  "Name": "Zelcash live Meeting 13",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=0H-OGe-2_BU' target='_blank'>youtube.com<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Date: 08/21/2018 | Runtime: 7m31s | Topics: ZelCore integrations, CCC recap, translations campaign"
+            },
+            {
+                  "Id": "18",
+                  "Name": "Zelcash live Meeting 14",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=_JP8UWRTTL8' target='_blank'>youtube.com<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Date: 08/29/2018 | Runtime: 17m45s | Topics: ZelCore integrations, Development fund distribution, and future funding models"
+            },
+            {
+                  "Id": "19",
+                  "Name": "ZelCore Mobile Teaser",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=i1LOT9Ksjrk' target='_blank'>youtube.com<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Date: 09/11/2018 | Runtime: 3m59s | Topics: Miles showing off ZelCore Mobile and multiple Android and iOS devices"
+            },
+            {
+                  "Id": "20",
+                  "Name": "Zelcash live Meeting 15",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=SDam36dt4e8' target='_blank'>youtube.com<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Date: 09/21/2018 | Runtime: 7m50s | Topics: ZelCore rebrand, desktop updates, Mobile release"
+            },
+            {
+                  "Id": "21",
+                  "Name": "Zelcash on Kev's Crypto Channel",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=dOmR6xz4hn0' target='_blank'>youtube.com<\/a>",
+                  "Uploader": "Kev's Crypto Channel",
+                  "Description": "Date: 09/28/2018 | Runtime: 16m58s | Topics: ZelCore discussed and shown"
             }
       ]
 }

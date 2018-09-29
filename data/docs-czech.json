@@ -1,0 +1,18 @@
+{
+    "data": [
+        {
+                "Id": "1",
+                "Name": "ZelCore Desktop Guide",
+                "Link" : "<a href='https:\/\/zelcore.io/pdf/ZelTreZ_Basics_Guide_v1.pdf' target='_blank'>Desktop Guide</a>",
+                "Status": "Active",
+                "Description": "Provides an overview to using the ZelCore platform for Windows/MacOS/Linux versions"
+        },
+        {
+                "Id": "2",
+                "Name": "ZelCore Mobile Guide",
+                "Link" : "<a href='https:\/\/zelcore.io/pdf/ZelCore_Mobile_Introduction.pdf' target='_blank'>Mobile Guide</a>",
+                "Status": "Active",
+                "Description": "Provides an overview to using the ZelCore platform for Android & iOS"
+        }
+]
+}

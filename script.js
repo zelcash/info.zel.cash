@@ -48,6 +48,10 @@ function testch(id) {
     var tablewallets = $('#datatable-wallets').DataTable()
     tablewallets.ajax.url(walletsjson).load();
 
+    docsjson = "data/docs-" + language + ".json"
+    var tabledocs = $('#datatable-docs').DataTable()
+    tabledocs.ajax.url(docsjson).load();
+
     infrastructurejson = "data/infrastructure-" + language + ".json"
     var tableinfrastructure = $('#datatable-infrastructure').DataTable()
     tableinfrastructure.ajax.url(infrastructurejson).load();
@@ -82,6 +86,7 @@ $(document).ready(function () {
     if(localStorage.getItem('language') != null) {
         language = localStorage.getItem('language');
         walletsjson = "data/wallets-" + language + ".json"
+        docsjson = "data/docs-" + language + ".json"
         infrastructurejson = "data/infrastructure-" + language + ".json"
         exchangesjson = "data/exchanges-" + language + ".json"
         cointrackersjson = "data/cointrackers-" + language + ".json"
@@ -101,6 +106,7 @@ $(document).ready(function () {
         });
     } else {
         walletsjson = "data/wallets-english.json"
+        docsjson = "data/docs-english.json"
         infrastructurejson = "data/infrastructure-english.json"
         exchangesjson = "data/exchanges-english.json"
         cointrackersjson = "data/cointrackers-english.json"
@@ -119,13 +125,18 @@ $(document).ready(function () {
         return false;
     });
 
-    $("a[href='#infrastructure']").click(function () {
-        $("html, body").animate({ scrollTop: $("#infrastructure").offset().top }, 800);
+    $("a[href='#wallets']").click(function () {
+        $("html, body").animate({ scrollTop: $("#wallets").offset().top }, 800);
         return false;
     });
 
-    $("a[href='#wallets']").click(function () {
-        $("html, body").animate({ scrollTop: $("#wallets").offset().top }, 800);
+    $("a[href='#docs']").click(function () {
+        $("html, body").animate({ scrollTop: $("#docs").offset().top }, 800);
+        return false;
+    });
+
+    $("a[href='#infrastructure']").click(function () {
+        $("html, body").animate({ scrollTop: $("#infrastructure").offset().top }, 800);
         return false;
     });
 
@@ -172,6 +183,30 @@ $(document).ready(function () {
             { "data": "Type" },
             { "data": "Platforms" },
             { "data": "Link" },
+            {
+                "className": 'details-control',
+                "orderable": false,
+                "data": null,
+                "defaultContent": ''
+            },
+            { "data": "Description", "visible": false }  
+        ],
+        "order": [[0, 'asc']]
+
+    });
+
+    var tabledocs = $('#datatable-docs').DataTable({
+        "ajax": docsjson,
+        //"lengthMenu": [[-1, 20, 50, 100], ["All", 20, 50, 100]],
+        "paging": false,
+        "info": false,
+        "orderable": false,
+        "sorting": false,
+        "columns": [
+            { "data": "Id" },
+            { "data": "Name" },
+            { "data": "Link" },
+            { "data": "Status" },
             {
                 "className": 'details-control',
                 "orderable": false,
@@ -350,6 +385,12 @@ $(document).ready(function () {
     $('#datatable-wallets tbody').on('click', 'tr', function () {
         var tr = $(this).closest('tr');
         var row = tablewallets.row(tr);
+        show(tr, row);
+    });
+
+    $('#datatable-docs tbody').on('click', 'tr', function () {
+        var tr = $(this).closest('tr');
+        var row = tabledocs.row(tr);
         show(tr, row);
     });
 
