@@ -142,55 +142,48 @@
             },
             {
                   "Id": "21",
-                  "Name": "ETH server",
-                  "Link": "<a href='http:\/\/206.189.126.50' target='_blank'>206.189.126.50<\/a>",
-                  "Status": "Online",
-                  "Description": "Our Ethereum server running geth that is used inside ZelTreZ"
-            },
-            {
-                  "Id": "22",
                   "Name": "BTC rates",
                   "Link": "<a href='https:\/\/rates.btc.zeltrez.io' target='_blank'>rates.btc.zeltrez.io<\/a>",
                   "Status": "Online",
                   "Description": "Our Bitcoin rates API that ZelTreZ is using to obtain its fiat equivalent."
             },
             {
-                  "Id": "23",
+                  "Id": "22",
                   "Name": "LTC rates",
                   "Link": "<a href='https:\/\/rates.ltc.zeltrez.io' target='_blank'>rates.ltc.zeltrez.io<\/a>",
                   "Status": "Online",
                   "Description": "Our Litecoin rates API that ZelTreZ is using to obtain its fiat equivalent."
             },
             {
-                  "Id": "24",
+                  "Id": "23",
                   "Name": "ZEC rates",
                   "Link": "<a href='https:\/\/rates.zec.zeltrez.io' target='_blank'>rates.zec.zeltrez.io<\/a>",
                   "Status": "Online",
                   "Description": "Our ZCash rates API that ZelTreZ is using to obtain its fiat equivalent."
             },
             {
-                  "Id": "25",
+                  "Id": "24",
                   "Name": "HUSH rates",
                   "Link": "<a href='https:\/\/rates.hush.zeltrez.io' target='_blank'>rates.hush.zeltrez.io<\/a>",
                   "Status": "Online",
                   "Description": "Our Hush rates API that ZelTreZ is using to obtain its fiat equivalent."
             },
             {
-                  "Id": "26",
+                  "Id": "25",
                   "Name": "BTCZ rates",
                   "Link": "<a href='https:\/\/rates.btcz.zeltrez.io' target='_blank'>rates.btcz.zeltrez.io<\/a>",
                   "Status": "Online",
                   "Description": "Our BitcoinZ rates API that ZelTreZ is using to obtain its fiat equivalent."
             },
             {
-                  "Id": "27",
+                  "Id": "26",
                   "Name": "RVN rates",
                   "Link": "<a href='https:\/\/rates.rvn.zeltrez.io' target='_blank'>rates.rvn.zeltrez.io<\/a>",
                   "Status": "Online",
                   "Description": "Our RavenCoin rates API that ZelTreZ is using to obtain its fiat equivalent."
             },
             {
-                  "Id": "28",
+                  "Id": "27",
                   "Name": "ETH rates",
                   "Link": "<a href='https:\/\/rates.eth.zeltrez.io' target='_blank'>rates.eth.zeltrez.io<\/a>",
                   "Status": "Online",
