@@ -3,149 +3,170 @@
             {
                   "Id": "1",
                   "Name": "ZelTreZ Teaser",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=Tvyp_au-tIw' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=Tvyp_au-tIw' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "ZelTreZ teaser video with closed captioning in many languages."
             },
             {
                   "Id": "2",
                   "Name": "Zelcash Live Meeting 1",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=DUKiPtNsxO4' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=DUKiPtNsxO4' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 02/04/2018 | Runtime: 39m25s | Topics: charity, pool drama, team expansion"
             },
             {
                   "Id": "3",
                   "Name": "Zelcash Live Meeting 2",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=La2_YquW6k4' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=La2_YquW6k4' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 02/17/2018 | Runtime: 35m50s | Topics: team expansion, swing wallet, website update"
             },
             {
                   "Id": "4",
                   "Name": "Zelcash Live Meeting 3",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=pa38GSFC_cw' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=pa38GSFC_cw' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 03/05/2018 | Runtime: 21m40s | Topics: Copay release, Graviex exchange, devs added, website update"
             },
             {
                   "Id": "5",
                   "Name": "Zelcash Live Meeting 4",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=We5qRAaNWwE' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=We5qRAaNWwE' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 03/25/2018 | Runtime: 23m11s | Topics: website, whitepaper update, ZelTreZ status, dev fund -> t-addy"
             },
             {
                   "Id": "6",
                   "Name": "Zelcash Live Meeting 5",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=zitGjKpduHQ' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=zitGjKpduHQ' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 04/08/2018 | Runtime: 18m51s | Topic: Agent Smith joins Zel, website released, Marketing & PR plans, Twitter revamped"
             },
             {
                   "Id": "7",
                   "Name": "Zelcash Live Meeting 6",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=p3-J5HRouy8' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=p3-J5HRouy8' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 04/22/2018 | Runtime: 28m24s | Topics: Zel added to Blockfolio & Coinlib.io, major ZelTreZ progress"
             },
             {
                   "Id": "8",
                   "Name": "Zelcash Live Meeting 7",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=c9YDcUkv-6Q' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=c9YDcUkv-6Q' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 05/07/2018 | Runtime: 1h19m24s | Topics: ZelTreZ alpha, 8 coins integrated, trading volumes, teaser video, Info page progress"
             },
             {
                   "Id": "9",
                   "Name": "Zelcash Live Meeting 8",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=6YQZQng7dOI' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=6YQZQng7dOI' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 05/19/2018 | Runtime: 25m44s | Topics: new devs, ZelTreZ release date & closed beta, Discord reaches 2k+ members"
             },
             {
                   "Id": "10",
                   "Name": "Switzerland Informal Stream",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=M6mcoDT980s' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=M6mcoDT980s' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Live stream with Miles, Trunk, and Lumi from Switzerland the day of ZelTreZ launch."
             },
             {
                   "Id": "11",
                   "Name": "Zelcash Live Meeting 9",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=myoMnAX7L64' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=myoMnAX7L64' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 06/17/2018 | Runtime: 23m56s | Topics: algo swap, marketing, Zelcash legal review"
             },
             {
                   "Id": "12",
                   "Name": "Zelcash on Mystery Mining Mondays w/ Seth Estrada",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=XbNUnkRLb5w&index=2&list=PLqLAWORR4NMx-YbWSDek-vPvh9xk1ACRT' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=XbNUnkRLb5w&index=2&list=PLqLAWORR4NMx-YbWSDek-vPvh9xk1ACRT' target='_blank'>YouTube<\/a>",
                   "Uploader": "Seth Estrada",
                   "Description": "Date: 07/02/2018 | Runtime: 2h20m46s | Topics: Everything ZelCash and mining"
             },
             {
                   "Id": "13",
                   "Name": "Zelcash Live Meeting 10",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=iivHKxmSCDE' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=iivHKxmSCDE' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 07/03/2018 | Runtime: 28m35s | Topics: algo swap, new website, marketing plan release, whitepaper release"
             },
             {
                   "Id": "14",
                   "Name": "Zelcash Live Meeting 11",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=5nPMXIFt4hk' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=5nPMXIFt4hk' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 07/22/2018 | Runtime: 20m20s | Topics: algo swap, ZelNodes proposal, whitepaper"
             },
             {
                   "Id": "15",
                   "Name": "Zelcash Live Meeting 12",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=cX1LhULTdKo' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=cX1LhULTdKo' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 08/05/2018 | Runtime: 18m16s | Topics: ZelTreZ new integrations, CoinMarketCap, roadmap recap, translations campaign"
             },
             {
                   "Id": "16",
                   "Name": "Zelcash on Kev's Crypto Channel",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=sXVGWtcFPiQ' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=sXVGWtcFPiQ' target='_blank'>YouTube<\/a>",
                   "Uploader": "Kev's Crypto Channel",
                   "Description": "Date: 08/07/2018 | Runtime: 3h20m26s | Topics: Everything ZelCash and mining"
             },
             {
                   "Id": "17",
-                  "Name": "Zelcash live Meeting 13",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=0H-OGe-2_BU' target='_blank'>youtube.com<\/a>",
+                  "Name": "Zelcash Live Meeting 13",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=0H-OGe-2_BU' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 08/21/2018 | Runtime: 7m31s | Topics: ZelCore integrations, CCC recap, translations campaign"
             },
             {
                   "Id": "18",
-                  "Name": "Zelcash live Meeting 14",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=_JP8UWRTTL8' target='_blank'>youtube.com<\/a>",
+                  "Name": "Zelcash Live Meeting 14",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=_JP8UWRTTL8' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 08/29/2018 | Runtime: 17m45s | Topics: ZelCore integrations, Development fund distribution, and future funding models"
             },
             {
                   "Id": "19",
                   "Name": "ZelCore Mobile Teaser",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=i1LOT9Ksjrk' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=i1LOT9Ksjrk' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 09/11/2018 | Runtime: 3m59s | Topics: Miles showing off ZelCore Mobile and multiple Android and iOS devices"
             },
             {
                   "Id": "20",
-                  "Name": "Zelcash live Meeting 15",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=SDam36dt4e8' target='_blank'>youtube.com<\/a>",
+                  "Name": "Zelcash Live Meeting 15",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=SDam36dt4e8' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 09/21/2018 | Runtime: 7m50s | Topics: ZelCore rebrand, desktop updates, Mobile release"
             },
             {
                   "Id": "21",
                   "Name": "Zelcash on Kev's Crypto Channel",
-                  "Link": "<a href='https:\/\/youtube.com/watch?v=dOmR6xz4hn0' target='_blank'>youtube.com<\/a>",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=dOmR6xz4hn0' target='_blank'>YouTube<\/a>",
                   "Uploader": "Kev's Crypto Channel",
                   "Description": "Date: 09/28/2018 | Runtime: 16m58s | Topics: ZelCore discussed and shown"
+            },
+            {
+                  "Id": "22",
+                  "Name": "Zelcash Live Meeting 16",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=4F_cCk12DSQ' target='_blank'>YouTube<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Date: 10/06/2018 | Runtime: 17m09s | Topics: Zel ID, ZelCore updates, Foundation setup, Medium blog"
+            },
+            {
+                  "Id": "23",
+                  "Name": "Zelcash Live Meeting 17",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=1BBgQWLjBaI' target='_blank'>YouTube<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Date: 10/16/2018 | Runtime: 18m30s | Topics: ZelCore partnerships, new devs, ZelEx Alpha"
+            },
+            {
+                  "Id": "24",
+                  "Name": "Zelcash Live Meeting 18",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=GZQNMaxBP5w' target='_blank'>YouTube<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Date: 11/04/2018 | Runtime: 18m46s | Topics: Zel/Zec swing wallets, Sapling network upgrade, ZelNodes roadmap, ZelCore update"
             }
       ]
 }

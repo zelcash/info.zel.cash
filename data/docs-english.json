@@ -13,6 +13,13 @@
                 "Link" : "<a href='https:\/\/zelcore.io/pdf/ZelCore_Mobile_Introduction.pdf' target='_blank'>Mobile Guide</a>",
                 "Status": "Active",
                 "Description": "Provides an overview to using the ZelCore platform for Android & iOS"
+        },
+        {
+                "Id": "3",
+                "Name": "ZelCash/ZelCore Medium Blog",
+                "Link" : "<a href='https:\/\/medium.com/@ZelOfficial' target='_blank'>Blog Posts</a>",
+                "Status": "Active",
+                "Description": "Find the latest news and updates about the whole Zel Ecosystem"
         }
 ]
 }
