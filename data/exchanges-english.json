@@ -34,6 +34,13 @@
                   "Link": "<a href='https:\/\/komodoplatform.com/decentralized-exchange/' target='_blank'>komodoplatform.com<\/a>",
                   "Status": "Active",
                   "Description": "BarterDex | Multiple pairings. A decentralized exchange (Dex). New version comes with updated UI known as HyperDex."
+            },
+            {
+                  "Id": "6",
+                  "Name": "TOKOK",
+                  "Link": "<a href='https:\/\/tokok.com/market?symbol=ZEL_BTC' target='_blank'>tokok.com<\/a>",
+                  "Status": "Active",
+                  "Description": "TOKOK | ZEL paired with BTC. Larger Asian exchange"
             }
       ]
 }
