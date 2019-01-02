@@ -2,10 +2,10 @@
       "data": [
             {
                   "Id": "1",
-                  "Name": "ZelTreZ Teaser",
+                  "Name": "ZelCore Teaser",
                   "Link": "<a href='https:\/\/youtube.com/watch?v=Tvyp_au-tIw' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
-                  "Description": "ZelTreZ teaser video with closed captioning in many languages."
+                  "Description": "ZelCore teaser video with closed captioning in many languages."
             },
             {
                   "Id": "2",
@@ -167,6 +167,27 @@
                   "Link": "<a href='https:\/\/youtube.com/watch?v=GZQNMaxBP5w' target='_blank'>YouTube<\/a>",
                   "Uploader": "ZelCash",
                   "Description": "Date: 11/04/2018 | Runtime: 18m46s | Topics: Zel/Zec swing wallets, Sapling network upgrade, ZelNodes roadmap, ZelCore update"
+            },
+            {
+                  "Id": "25",
+                  "Name": "Zelcash Live Meeting 19",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=RN1Im9FEwhU' target='_blank'>YouTube<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Date: 12/02/2018 | Runtime: 14m59s | Topics: ZelCore update, Gemini affiliation, ZelNodes update, Coach - PR advisor"
+            },
+            {
+                  "Id": "26",
+                  "Name": "Zelcash Live Meeting 20",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=jl9_jip6O0Q' target='_blank'>YouTube<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Date: 12/22/2018 | Runtime: 19m35s | Topics: Acadia network upgrade, ZelCore release, ZelNodes, mining"
+            },
+            {
+                  "Id": "27",
+                  "Name": "Zelcash Live Meeting 21",
+                  "Link": "<a href='https:\/\/youtube.com/watch?v=u7QY7YaYMEE' target='_blank'>YouTube<\/a>",
+                  "Uploader": "ZelCash",
+                  "Description": "Date: 12/22/2018 | Runtime: 18m04s | Topics: All things Acadia network upgrade"
             }
       ]
 }

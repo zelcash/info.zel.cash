@@ -30,76 +30,83 @@
             },
             {
                   "Id": "5",
+                  "Name": "Acadia Network Upgrade",
+                  "Link": "<a href='https:\/\/zel.cash/upgrade/' target='_blank'>Acadia Upgrade<\/a>",
+                  "Status": "Online",
+                  "Description": "Info about the Acadia network upgrade"
+            },
+            {
+                  "Id": "6",
                   "Name": "ZelCash WebWallet",
                   "Link": "<a href='https:\/\/my.zel.cash' target='_blank'>my.zel.cash<\/a>",
                   "Status": "Online",
                   "Description": "WebWallet is an easy to use ZelCash wallet. There is no need to download any file, simply create a wallet by entering your secret phrase."
             },
             {
-                  "Id": "6",
+                  "Id": "7",
                   "Name": "ZelCash explorer",
                   "Link": "<a href='https:\/\/explorer.zel.cash' target='_blank'>explorer.zel.cash<\/a>",
                   "Status": "Online",
                   "Description": "Main ZelCash explorer showing all transactions and blocks. Based on Bitcoin Insight explorer, offering a powerful API. "
             },
             {
-                  "Id": "7",
+                  "Id": "8",
                   "Name": "ZelCash explorer 2",
                   "Link": "<a href='https:\/\/explorer2.zel.cash' target='_blank'>explorer2.zel.cash<\/a>",
                   "Status": "Online",
                   "Description": "Backup ZelCash explorer showing all transactions and blocks. Based on Bitcoin Insight explorer, offering a powerful API. "
             },
             {
-                  "Id": "8",
+                  "Id": "9",
                   "Name": "ZelCash explorer 3",
                   "Link": "<a href='https:\/\/explorer.zelcash.online' target='_blank'>explorer.zelcash.online<\/a>",
                   "Status": "Online",
                   "Description": "Backup ZelCash explorer 2 showing all transactions and blocks. Based on Bitcoin Insight explorer, offering a powerful API. "
             },
             {
-                  "Id": "9",
+                  "Id": "10",
                   "Name": "ZelCash explorer for ZelCore",
                   "Link": "<a href='https:\/\/explorer.zel.zelcore.io' target='_blank'>explorer.zel.zelcore.io<\/a>",
                   "Status": "Online",
                   "Description": "ZelCash explorer used in ZelCore platform showing all transactions and blocks. Based on Bitcoin Insight explorer, offering a powerful API. "
             },
             {
-                  "Id": "10",
+                  "Id": "11",
                   "Name": "ZelCash rates",
                   "Link": "<a href='https:\/\/rates.zel.cash' target='_blank'>rates.zel.cash<\/a>",
                   "Status": "Online",
                   "Description": "Main ZelCash rates API showing ZelCash price in BTC and about 150 fiat currencies. Feel free to pull data from it for your site!"
             },
             {
-                  "Id": "11",
+                  "Id": "12",
                   "Name": "ZelCash rates for ZelCore",
                   "Link": "<a href='https:\/\/rates.zel.zelcore.io' target='_blank'>rates.zel.zelcore.io<\/a>",
                   "Status": "Online",
                   "Description": "ZelCash rates server used inside ZelCore. API shows ZelCash price in BTC and about 150 fiat currencies. Feel free to pull data from it for your site!"
             },
             {
-                  "Id": "12",
+                  "Id": "13",
                   "Name": "Main BWS",
                   "Link": "<a href='https:\/\/bws.zel.cash' target='_blank'>bws.zel.cash<\/a>",
                   "Status": "Online",
                   "Description": "Bitcore Wallet Service (BWS) is used for Copay wallets to operate correctly. It is a powerful extension to Bitcore itself. Example API call: https://bws.zel.cash/bws/api/v2/feelevels"
             },
             {
-                  "Id": "13",
+                  "Id": "14",
                   "Name": "Backup BWS",
                   "Link": "<a href='https:\/\/bws2.zel.cash' target='_blank'>bws2.zel.cash<\/a>",
                   "Status": "Online",
                   "Description": "Bitcore Wallet Service (BWS) is used for Copay wallets to operate correctly. It is a powerful extension to Bitcore itself. Example API call: https://bws.zel.cash/bws/api/v2/feelevels"
             },
             {
-                  "Id": "14",
+                  "Id": "15",
                   "Name": "Backup BWS 2",
                   "Link": "<a href='https:\/\/bws.zelcash.online' target='_blank'>bws.zelcash.online<\/a>",
                   "Status": "Online",
                   "Description": "Bitcore Wallet Service (BWS) is used for Copay wallets to operate correctly. It is a powerful extension to Bitcore itself. Example API call: https://bws.zel.cash/bws/api/v2/feelevels"
             },
             {
-                  "Id": "15",
+                  "Id": "16",
                   "Name": "Backup BWS 3",
                   "Link": "<a href='https:\/\/bws.zel.zelcore.io' target='_blank'>bws.zel.zelcore.io<\/a>",
                   "Status": "Online",
