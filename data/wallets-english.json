@@ -13,7 +13,7 @@
       "Name": "Swing Wallet",
       "Type": "Full Node",
       "Platforms": "Windows, Linux",
-      "Link": "<a href='https://github.com/zelcash/zelcash-swing-wallet/releases/tag/v5.0.0' target='_blank'>Swing wallet download</a>",
+      "Link": "<a href='https://github.com/zelcash/zelcash-swing-wallet/releases' target='_blank'>Swing wallet download</a>",
       "Description": "Swing wallet is a Full Node wallet with z-address capability for privacy features. Requires download and syncing of the full blockchain and proving keys. "
     },
     {
