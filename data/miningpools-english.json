@@ -2,86 +2,29 @@
       "data": [
             {
                   "Id": "1",
-                  "Name": "FOMO",
-                  "Link": "<a href='https:\/\/zpool.wfmpools.com' target='_blank'>FOMO<\/a>",
+                  "Name": "Zel Community Pool",
+                  "Link": "<a href='https:\/\/pool.zel.cash' target='_blank'>Community Pool<\/a>",
                   "Status": "Active",
-                  "Description": "Zel mining pool"
+                  "Fees": "1%",
+                  "Payout Min": "10",
+                  "Description": "ZelCash Community Pool! Fees are used to keep the infrastructure up and running."
             },
-            {
+           {
                   "Id": "2",
-                  "Name": "CloudPools",
-                  "Link": "<a href='https:\/\/mine.cloudpools.net' target='_blank'>Cloudpools<\/a>",
-                  "Status": "Active",
-                  "Description": "Zel mining pool"
-            },
-            {
-                  "Id": "3",
-                  "Name": "CoinBlockers",
-                  "Link": "<a href='https:\/\/zel.coinblockers.com' target='_blank'>Coinblockers<\/a>",
-                  "Status": "Active",
-                  "Description": "Zel mining pool"
-            },
-            {
-                  "Id": "4",
-                  "Name": "EquiPool",
-                  "Link": "<a href='https:\/\/equipool.1ds.us' target='_blank'>Equipools<\/a>",
-                  "Status": "Active",
-                  "Description": "Zel mining pool"
-            },
-            {
-                  "Id": "5",
-                  "Name": "XBT Moon",
-                  "Link": "<a href='https:\/\/pool.xbtmoon.com' target='_blank'>XBTmoon<\/a>",
-                  "Status": "Active",
-                  "Description": "Zel mining pool"
-            },
-            {
-                  "Id": "6",
-                  "Name": "ForgeTop",
-                  "Link": "<a href='https:\/\/zel.forgetop.com' target='_blank'>Forgetop<\/a>",
-                  "Status": "Active",
-                  "Description": "Zel mining pool"
-            },
-            {
-                  "Id": "7",
-                  "Name": "Pickaxe",
-                  "Link": "<a href='https:\/\/equi.pickaxe.pro' target='_blank'>Pickaxe<\/a>",
-                  "Status": "Active",
-                  "Description": "Zel mining pool"
-            },
-            {
-                  "Id": "8",
-                  "Name": "Althashers",
-                  "Link": "<a href='https:\/\/althashers.com' target='_blank'>Althashers<\/a>",
-                  "Status": "Active",
-                  "Description": "Zel mining pool"
-            },
-            {
-                  "Id": "9",
                   "Name": "Voidr",
                   "Link": "<a href='https:\/\/zelcash.voidr.net' target='_blank'>Voidr<\/a>",
                   "Status": "Active",
-                  "Description": "Zel mining pool"
+                  "Fees": "1% (0.5% to ZEL Foundation)",
+                  "Payout Min": "0.5",
+                  "Description": "ZelCash mining pool."
             },
             {
-                  "Id": "10",
-                  "Name": "Whibbit",
-                  "Link": "<a href='https:\/\/pool.whibbit.cn' target='_blank'>Whibbit<\/a>",
+                  "Id": "3",
+                  "Name": "EquiPool",
+                  "Link": "<a href='https:\/\/equipool.1ds.us' target='_blank'>Equipools<\/a>",
                   "Status": "Active",
-                  "Description": "Zel mining pool"
-            },
-            {
-                  "Id": "11",
-                  "Name": "MinerMore",
-                  "Link": "<a href='https:\/\/minermore.com' target='_blank'>MinerMore<\/a>",
-                  "Status": "Active",
-                  "Description": "Zel mining pool"
-            },
-            {
-                  "Id": "12",
-                  "Name": "Altpool",
-                  "Link": "<a href='https:\/\/zel.altpool.pro' target='_blank'>Altpool<\/a>",
-                  "Status": "Active",
+                  "Fees": "0.5%",
+                  "Payout Min": "10",
                   "Description": "Zel mining pool"
             }
       ]
