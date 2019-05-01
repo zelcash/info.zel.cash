@@ -10,11 +10,11 @@
     },
     {
       "Id": "2",
-      "Name": "Swing Wallet",
+      "Name": "ZELMate",
       "Type": "Full Node",
       "Platforms": "Windows, Linux",
-      "Link": "<a href='https://github.com/zelcash/zelcash-swing-wallet/releases' target='_blank'>Swing wallet download</a>",
-      "Description": "Swing wallet is a Full Node wallet with z-address capability for privacy features. Requires download and syncing of the full blockchain and proving keys. "
+      "Link": "<a href='https://github.com/zelcash/zelcash-swing-wallet/releases' target='_blank'>ZELmate download</a>",
+      "Description": "ZELmate is a Full Node wallet with z-address capability for privacy features. Requires download and syncing of the full blockchain and proving keys. "
     },
     {
       "Id": "3",
