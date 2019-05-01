@@ -6,7 +6,7 @@
       "Type": "Light/Full Node",
       "Platforms": "Android, iOS, Windows, MacOS, Linux",
       "Link": "<a href='https://zelcore.io/#download' target='_blank'>ZelCore Download</a>",
-      "Description": "ZelCore is an encrypted multi-asset wallet with both lightweight and full node capability. ZelCore is also the Zelcash platform for future capabilities including a Dex, zelNodes, and other dAPPs."
+      "Description": "ZelCore is an encrypted multi-asset wallet with both lightweight and full node capability. ZelCore is also the platform for ZelNodes and ZelID. Future capabilities include zelEx, and other dAPPs."
     },
     {
       "Id": "2",
